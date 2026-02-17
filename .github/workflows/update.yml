@@ -1,0 +1,57 @@
+name: Update Snow Data
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Every 15 minutes
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch snow data
+        run: node fetch-data.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "Snow Monitor Bot"
+          git config user.email "bot@snow-monitor"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update snow data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # Get latest after update job
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

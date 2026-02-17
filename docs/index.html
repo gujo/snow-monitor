@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Snow Monitor</title>
+<style>
+  :root { --bg: #0f1923; --card: #1a2733; --text: #e0e6ed; --accent: #4fc3f7; --border: #2a3a4a; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 20px; }
+  .container { max-width: 900px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 30px; }
+  header h1 { font-size: 2em; color: var(--accent); margin-bottom: 4px; }
+  header h1::before { content: '🏔️ '; }
+  .updated { color: #8899aa; font-size: 0.85em; }
+  .resort-card { background: var(--card); border-radius: 12px; padding: 24px; margin-bottom: 24px; border: 1px solid var(--border); }
+  .resort-card h2 { color: var(--accent); margin-bottom: 16px; font-size: 1.4em; }
+  .resort-card h2 .area { color: #8899aa; font-size: 0.65em; font-weight: normal; }
+  .resort-card h3 { color: #aab; margin: 20px 0 10px; font-size: 1em; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; color: #8899aa; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.5px; padding: 8px 12px; border-bottom: 1px solid var(--border); }
+  td { padding: 10px 12px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .station-name { font-weight: 600; }
+  .elev { color: #8899aa; font-size: 0.8em; font-weight: normal; }
+  .temp { font-size: 1.1em; font-weight: 600; }
+  .feels { color: #8899aa; font-size: 0.8em; font-weight: normal; }
+  .snow-depth { font-size: 1.2em; font-weight: 700; color: #81d4fa; }
+  .snow-new { color: #aed581; font-weight: 600; }
+  .gusts { color: #8899aa; font-size: 0.8em; }
+  .forecast td { padding: 8px 12px; }
+
+  @media (max-width: 640px) {
+    body { padding: 10px; }
+    .resort-card { padding: 14px; }
+    table { font-size: 0.85em; }
+    th, td { padding: 6px 6px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Snow Monitor</h1>
+    <p class="updated">Updated: Tuesday, 17 February 2026 at 21:47 CET</p>
+  </header>
+  
+      <div class="resort-card">
+        <h2>Champoluc <span class="area">Monterosa Ski</span></h2>
+        <table class="stations">
+          <thead>
+            <tr><th>Station</th><th>Temp</th><th>Snow Depth</th><th>New Snow (24h)</th><th>Weather</th><th>Wind</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="station-name">Top<br><span class="elev">2705m</span></td>
+          <td class="temp">-10.3°C<br><span class="feels">Feels -17.8°C</span></td>
+          <td class="snow-depth">233cm</td>
+          <td class="snow-new">2.3cm</td>
+          <td class="weather">☀️ Clear sky</td>
+          <td class="wind">26.2 km/h<br><span class="gusts">Gusts 79.2</span></td>
+        </tr>
+        <tr>
+          <td class="station-name">Mid<br><span class="elev">2146m</span></td>
+          <td class="temp">-6.7°C<br><span class="feels">Feels -10.8°C</span></td>
+          <td class="snow-depth">207cm</td>
+          <td class="snow-new">3.8cm</td>
+          <td class="weather">☀️ Clear sky</td>
+          <td class="wind">4 km/h<br><span class="gusts">Gusts 20.5</span></td>
+        </tr>
+        <tr>
+          <td class="station-name">Bottom<br><span class="elev">1568m</span></td>
+          <td class="temp">-2.5°C<br><span class="feels">Feels -6.8°C</span></td>
+          <td class="snow-depth">151cm</td>
+          <td class="snow-new">1.7cm</td>
+          <td class="weather">☀️ Clear sky</td>
+          <td class="wind">7.6 km/h<br><span class="gusts">Gusts 14.8</span></td>
+        </tr></tbody>
+        </table>
+        <h3>3-Day Forecast (Top Station)</h3>
+        <table class="forecast">
+          <thead><tr><th>Day</th><th>Weather</th><th>Temp</th><th>Snowfall</th></tr></thead>
+          <tbody>
+          <tr>
+            <td>Tue 17 Feb</td>
+            <td>🌨️ Light snow showers</td>
+            <td>-12.8° / -9.9°</td>
+            <td>2.31cm</td>
+          </tr>
+          <tr>
+            <td>Wed 18 Feb</td>
+            <td>🌨️ Light snow showers</td>
+            <td>-9.8° / -5.5°</td>
+            <td>0cm</td>
+          </tr>
+          <tr>
+            <td>Thu 19 Feb</td>
+            <td>🌨️ Snow</td>
+            <td>-8.8° / -6.8°</td>
+            <td>4.79cm</td>
+          </tr></tbody>
+        </table>
+      </div>
+      <div class="resort-card">
+        <h2>Cervinia <span class="area">Matterhorn Ski Paradise</span></h2>
+        <table class="stations">
+          <thead>
+            <tr><th>Station</th><th>Temp</th><th>Snow Depth</th><th>New Snow (24h)</th><th>Weather</th><th>Wind</th></tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="station-name">Top<br><span class="elev">3480m</span></td>
+          <td class="temp">-15.7°C<br><span class="feels">Feels -26.5°C</span></td>
+          <td class="snow-depth">227cm</td>
+          <td class="snow-new">14.5cm</td>
+          <td class="weather">🌨️ Light snow</td>
+          <td class="wind">47.8 km/h<br><span class="gusts">Gusts 135.4</span></td>
+        </tr>
+        <tr>
+          <td class="station-name">Mid<br><span class="elev">2800m</span></td>
+          <td class="temp">-10.7°C<br><span class="feels">Feels -19.5°C</span></td>
+          <td class="snow-depth">243cm</td>
+          <td class="snow-new">8.7cm</td>
+          <td class="weather">🌤️ Mainly clear</td>
+          <td class="wind">34.2 km/h<br><span class="gusts">Gusts 66.6</span></td>
+        </tr>
+        <tr>
+          <td class="station-name">Bottom<br><span class="elev">2050m</span></td>
+          <td class="temp">-4.9°C<br><span class="feels">Feels -12.5°C</span></td>
+          <td class="snow-depth">217cm</td>
+          <td class="snow-new">10.6cm</td>
+          <td class="weather">🌨️ Light snow</td>
+          <td class="wind">27.2 km/h<br><span class="gusts">Gusts 54.4</span></td>
+        </tr></tbody>
+        </table>
+        <h3>3-Day Forecast (Top Station)</h3>
+        <table class="forecast">
+          <thead><tr><th>Day</th><th>Weather</th><th>Temp</th><th>Snowfall</th></tr></thead>
+          <tbody>
+          <tr>
+            <td>Tue 17 Feb</td>
+            <td>❄️ Heavy snow showers</td>
+            <td>-17.7° / -15°</td>
+            <td>14.49cm</td>
+          </tr>
+          <tr>
+            <td>Wed 18 Feb</td>
+            <td>🌨️ Light snow showers</td>
+            <td>-14.8° / -9.1°</td>
+            <td>0.49cm</td>
+          </tr>
+          <tr>
+            <td>Thu 19 Feb</td>
+            <td>🌨️ Light snow showers</td>
+            <td>-13.7° / -11.3°</td>
+            <td>9.89cm</td>
+          </tr></tbody>
+        </table>
+      </div>
+  <footer style="text-align:center;color:#556;font-size:0.75em;margin-top:30px;">
+    Data from <a href="https://open-meteo.com" style="color:#4fc3f7">Open-Meteo</a> · Auto-updated every 15 min
+  </footer>
+</div>
+</body>
+</html>

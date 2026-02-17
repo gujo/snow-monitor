@@ -1,0 +1,30 @@
+[
+  {
+    "id": "champoluc",
+    "name": "Champoluc",
+    "area": "Monterosa Ski",
+    "country": "IT",
+    "lat": 45.8333,
+    "lon": 7.7333,
+    "elevations": {
+      "bottom": 1568,
+      "mid": 2146,
+      "top": 2705
+    },
+    "snowForecastSlug": "Champoluc"
+  },
+  {
+    "id": "cervinia",
+    "name": "Cervinia",
+    "area": "Matterhorn Ski Paradise",
+    "country": "IT",
+    "lat": 45.9367,
+    "lon": 7.6317,
+    "elevations": {
+      "bottom": 2050,
+      "mid": 2800,
+      "top": 3480
+    },
+    "snowForecastSlug": "Cervinia"
+  }
+]

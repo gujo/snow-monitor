@@ -111,9 +111,8 @@ function generateHTML(allData, timestamp) {
       stationRows += `
         <div class="station">
           <div class="st-label">${label}<span class="elev">${resort.elevations[station]}m</span></div>
-          <div class="st-temp">${c.temperature_2m}°<span class="feels">${c.apparent_temperature}°</span></div>
+          <div class="st-temp">${c.temperature_2m}°</div>
           <div class="st-weather">${emoji}</div>
-          <div class="st-snow">${snowCm}cm</div>
           <div class="st-wind">${c.wind_speed_10m}<span class="unit">km/h</span></div>
         </div>`;
     }
@@ -177,7 +176,7 @@ function generateHTML(allData, timestamp) {
         ${snowInfo}
         <div class="stations">${stationRows}</div>
         <div class="stations-legend">
-          <span>Temp</span><span>Feels</span><span></span><span>Snow</span><span>Wind</span>
+          <span></span><span>Temp</span><span></span><span>Wind</span>
         </div>
       </div>`;
   }
@@ -220,19 +219,17 @@ header h1::before{content:'🏔️ '}
 .snow-lbl{font-size:.6em;color:#5a7a8a;text-transform:uppercase;letter-spacing:.5px}
 
 .stations{display:flex;flex-direction:column;gap:1px}
-.station{display:grid;grid-template-columns:1fr 60px 28px 44px 50px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.station{display:grid;grid-template-columns:1fr 50px 28px 50px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04)}
 .station:last-child{border:none}
 .st-label{font-size:.82em;font-weight:600}
 .elev{display:block;font-size:.72em;color:#5a7a8a;font-weight:400}
 .st-temp{font-size:.95em;font-weight:600;text-align:right}
-.feels{display:block;font-size:.7em;color:#5a7a8a;font-weight:400}
 .st-weather{text-align:center;font-size:1.1em}
-.st-snow{font-size:.9em;font-weight:700;color:#81d4fa;text-align:right}
 .st-wind{font-size:.8em;text-align:right;color:#8899aa}
 .unit{font-size:.7em;color:#5a7a8a}
 
-.stations-legend{display:grid;grid-template-columns:1fr 60px 28px 44px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
-.stations-legend span:nth-child(2),.stations-legend span:nth-child(4),.stations-legend span:nth-child(5){text-align:right}
+.stations-legend{display:grid;grid-template-columns:1fr 50px 28px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
+.stations-legend span:nth-child(2),.stations-legend span:nth-child(4){text-align:right}
 
 .avy-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#0d1a28;border-radius:8px;margin-bottom:12px;font-size:.82em}
 .avy-emoji{font-size:1.1em}

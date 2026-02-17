@@ -36,17 +36,18 @@ header h1::before{content:'🏔️ '}
 .snow-lbl{font-size:.6em;color:#5a7a8a;text-transform:uppercase;letter-spacing:.5px}
 
 .stations{display:flex;flex-direction:column;gap:1px}
-.station{display:grid;grid-template-columns:1fr 50px 28px 50px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04)}
+.station{display:grid;grid-template-columns:1fr 50px 28px 44px 50px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04)}
 .station:last-child{border:none}
 .st-label{font-size:.82em;font-weight:600}
 .elev{display:block;font-size:.72em;color:#5a7a8a;font-weight:400}
 .st-temp{font-size:.95em;font-weight:600;text-align:right}
 .st-weather{text-align:center;font-size:1.1em}
+.st-snow{font-size:.9em;font-weight:700;color:#81d4fa;text-align:right}
 .st-wind{font-size:.8em;text-align:right;color:#8899aa}
 .unit{font-size:.7em;color:#5a7a8a}
 
-.stations-legend{display:grid;grid-template-columns:1fr 50px 28px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
-.stations-legend span:nth-child(2),.stations-legend span:nth-child(4){text-align:right}
+.stations-legend{display:grid;grid-template-columns:1fr 50px 28px 44px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
+.stations-legend span:nth-child(2),.stations-legend span:nth-child(4),.stations-legend span:nth-child(5){text-align:right}
 
 .avy-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#0d1a28;border-radius:8px;margin-bottom:12px;font-size:.82em}
 .avy-emoji{font-size:1.1em}
@@ -62,7 +63,7 @@ footer a{color:#3a6a8a}
 <div class="wrap">
   <header>
     <h1>Snow Monitor</h1>
-    <p class="updated">17 Feb 2026, 22:05 CET</p>
+    <p class="updated">17 Feb 2026, 22:08 CET</p>
   </header>
   
       <div class="card">
@@ -106,22 +107,25 @@ footer a{color:#3a6a8a}
           <div class="st-label">⛰️ Top<span class="elev">2705m</span></div>
           <div class="st-temp">-10.2°</div>
           <div class="st-weather">☀️</div>
+          <div class="st-snow">233cm</div>
           <div class="st-wind">26<span class="unit">km/h</span></div>
         </div>
         <div class="station">
           <div class="st-label">🏔️ Mid<span class="elev">2146m</span></div>
           <div class="st-temp">-6.6°</div>
           <div class="st-weather">☀️</div>
+          <div class="st-snow">207cm</div>
           <div class="st-wind">2.5<span class="unit">km/h</span></div>
         </div>
         <div class="station">
           <div class="st-label">🏠 Base<span class="elev">1568m</span></div>
           <div class="st-temp">-2.7°</div>
           <div class="st-weather">☀️</div>
+          <div class="st-snow">151cm</div>
           <div class="st-wind">8.3<span class="unit">km/h</span></div>
         </div></div>
         <div class="stations-legend">
-          <span></span><span>Temp</span><span></span><span>Wind</span>
+          <span></span><span>Temp</span><span></span><span>Snow</span><span>Wind</span>
         </div>
       </div>
   <footer>Data: <a href="https://open-meteo.com">Open-Meteo</a> · <a href="https://www.onthesnow.co.uk">OnTheSnow</a> · Updated every 15 min</footer>

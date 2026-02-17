@@ -11,20 +11,6 @@
       "mid": 2146,
       "top": 2705
     },
-    "snowForecastSlug": "Champoluc"
-  },
-  {
-    "id": "cervinia",
-    "name": "Cervinia",
-    "area": "Matterhorn Ski Paradise",
-    "country": "IT",
-    "lat": 45.9367,
-    "lon": 7.6317,
-    "elevations": {
-      "bottom": 2050,
-      "mid": 2800,
-      "top": 3480
-    },
-    "snowForecastSlug": "Cervinia"
+    "onTheSnowUrl": "https://www.onthesnow.co.uk/italy/champoluc-monterosa-ski/skireport"
   }
 ]

@@ -97,7 +97,7 @@ function generateHTML(allData, timestamp) {
 
   let resortCards = '';
 
-  for (const { resort, weather, lifts } of allData) {
+  for (const { resort, weather, lifts, avalanche } of allData) {
     // Station rows - compact
     let stationRows = '';
     for (const station of ['top', 'mid', 'bottom']) {
@@ -155,12 +155,24 @@ function generateHTML(allData, timestamp) {
         </div>`;
     }
 
+    // Avalanche risk
+    let avalancheInfo = '';
+    if (avalanche) {
+      avalancheInfo = `
+        <div class="avy-bar" style="border-left:3px solid ${avalanche.color}">
+          <span class="avy-emoji">${avalanche.emoji}</span>
+          <span class="avy-level">Avalanche Risk: <strong>${avalanche.label}</strong> (${avalanche.level}/5)</span>
+          <a href="${avalanche.url}" class="avy-link" target="_blank">↗</a>
+        </div>`;
+    }
+
     resortCards += `
       <div class="card">
         <div class="card-header">
           <h2>${resort.name}</h2>
           <span class="area">${resort.area}</span>
         </div>
+        ${avalancheInfo}
         ${liftInfo}
         ${snowInfo}
         <div class="stations">${stationRows}</div>
@@ -222,6 +234,12 @@ header h1::before{content:'🏔️ '}
 .stations-legend{display:grid;grid-template-columns:1fr 60px 28px 44px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
 .stations-legend span:nth-child(2),.stations-legend span:nth-child(4),.stations-legend span:nth-child(5){text-align:right}
 
+.avy-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#0d1a28;border-radius:8px;margin-bottom:12px;font-size:.82em}
+.avy-emoji{font-size:1.1em}
+.avy-level{flex:1}
+.avy-level strong{color:#e8f0f8}
+.avy-link{color:#4a6a8a;font-size:.9em;text-decoration:none}
+
 footer{text-align:center;color:#2a3a4a;font-size:.6em;padding:8px 0}
 footer a{color:#3a6a8a}
 </style>
@@ -239,15 +257,54 @@ footer a{color:#3a6a8a}
 </html>`;
 }
 
+async function fetchAvalancheData() {
+  try {
+    // Fetch EUREGIO CAAMLv6 bulletin (nearest structured source for western Alps)
+    const raw = await fetch('https://static.avalanche.report/bulletins/latest/EUREGIO_en_CAAMLv6.json');
+    const data = JSON.parse(raw);
+    // Get highest danger level across all bulletins
+    let maxDanger = 'low';
+    let maxLevel = 1;
+    const dangerMap = { low: 1, moderate: 2, considerable: 3, high: 4, very_high: 5 };
+    const labelMap = { 1: 'Low', 2: 'Moderate', 3: 'Considerable', 4: 'High', 5: 'Very High' };
+    const colorMap = { 1: '#4CAF50', 2: '#FFEB3B', 3: '#FF9800', 4: '#F44336', 5: '#000' };
+    const emojiMap = { 1: '🟢', 2: '🟡', 3: '🟠', 4: '🔴', 5: '⚫' };
+
+    for (const b of (data.bulletins || [])) {
+      for (const r of (b.dangerRatings || [])) {
+        const level = dangerMap[r.mainValue] || 1;
+        if (level > maxLevel) { maxLevel = level; maxDanger = r.mainValue; }
+      }
+    }
+    const validTime = data.bulletins?.[0]?.validTime;
+    return {
+      level: maxLevel,
+      label: labelMap[maxLevel],
+      color: colorMap[maxLevel],
+      emoji: emojiMap[maxLevel],
+      validFrom: validTime?.startTime,
+      validTo: validTime?.endTime,
+      source: 'EUREGIO/avalanche.report',
+      url: 'https://avalanche.report'
+    };
+  } catch (e) {
+    console.error(`  Avalanche data failed: ${e.message}`);
+    return null;
+  }
+}
+
 async function main() {
   console.log('Fetching snow data...');
   const allData = [];
+
+  const avalanche = await fetchAvalancheData();
+  console.log(`  Avalanche: ${avalanche ? avalanche.label : 'N/A'}`);
 
   for (const resort of resorts) {
     console.log(`  ${resort.name}...`);
     const weather = await fetchOpenMeteo(resort);
     const lifts = await fetchLiftPisteData(resort);
-    allData.push({ resort, weather, lifts });
+    allData.push({ resort, weather, lifts, avalanche });
   }
 
   const timestamp = new Date().toISOString();

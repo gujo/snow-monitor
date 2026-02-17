@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-17T22:58:00.676Z",
+  "timestamp": "2026-02-17T23:27:40.124Z",
   "resorts": [
     {
       "resort": {
@@ -17,41 +17,11 @@
         "onTheSnowUrl": "https://www.onthesnow.co.uk/italy/champoluc-monterosa-ski/skireport"
       },
       "weather": {
-        "bottom": {
-          "latitude": 45.84,
-          "longitude": 7.7399993,
-          "generationtime_ms": 0.5697011947631836,
-          "utc_offset_seconds": 3600,
-          "timezone": "Europe/Rome",
-          "timezone_abbreviation": "GMT+1",
-          "elevation": 1568,
-          "current_units": {
-            "time": "iso8601",
-            "interval": "seconds",
-            "temperature_2m": "°C",
-            "apparent_temperature": "°C",
-            "snowfall": "cm",
-            "snow_depth": "m",
-            "weather_code": "wmo code",
-            "wind_speed_10m": "km/h",
-            "wind_gusts_10m": "km/h"
-          },
-          "current": {
-            "time": "2026-02-17T23:45",
-            "interval": 900,
-            "temperature_2m": -2.2,
-            "apparent_temperature": -6.5,
-            "snowfall": 0,
-            "snow_depth": 1.51,
-            "weather_code": 0,
-            "wind_speed_10m": 6.8,
-            "wind_gusts_10m": 11.9
-          }
-        },
+        "bottom": null,
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.15091896057128906,
+          "generationtime_ms": 0.21600723266601562,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -68,21 +38,21 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-17T23:45",
+            "time": "2026-02-18T00:15",
             "interval": 900,
-            "temperature_2m": -6.2,
-            "apparent_temperature": -10.6,
+            "temperature_2m": -5.9,
+            "apparent_temperature": -10.3,
             "snowfall": 0,
             "snow_depth": 2.09,
             "weather_code": 0,
-            "wind_speed_10m": 5.6,
-            "wind_gusts_10m": 22.7
+            "wind_speed_10m": 4.7,
+            "wind_gusts_10m": 20.5
           }
         },
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.46455860137939453,
+          "generationtime_ms": 0.21278858184814453,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -99,15 +69,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-17T23:45",
+            "time": "2026-02-18T00:15",
             "interval": 900,
             "temperature_2m": -9.8,
-            "apparent_temperature": -16.7,
+            "apparent_temperature": -16.4,
             "snowfall": 0,
             "snow_depth": 2.37,
             "weather_code": 0,
-            "wind_speed_10m": 21.4,
-            "wind_gusts_10m": 77
+            "wind_speed_10m": 19.2,
+            "wind_gusts_10m": 74.2
           }
         }
       },

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-17T20:47:09.302Z",
+  "timestamp": "2026-02-17T20:47:36.856Z",
   "resorts": [
     {
       "id": "champoluc",
@@ -8,7 +8,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.47516822814941406,
+          "generationtime_ms": 0.2846717834472656,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -454,7 +454,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.6248950958251953,
+          "generationtime_ms": 0.25773048400878906,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -900,7 +900,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.2728700637817383,
+          "generationtime_ms": 0.2779960632324219,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -1352,7 +1352,7 @@
         "bottom": {
           "latitude": 45.94,
           "longitude": 7.64,
-          "generationtime_ms": 0.2893209457397461,
+          "generationtime_ms": 0.2747774124145508,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -1798,7 +1798,7 @@
         "mid": {
           "latitude": 45.94,
           "longitude": 7.6599994,
-          "generationtime_ms": 0.2491474151611328,
+          "generationtime_ms": 0.29659271240234375,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -2244,7 +2244,7 @@
         "top": {
           "latitude": 45.96,
           "longitude": 7.6199994,
-          "generationtime_ms": 0.316619873046875,
+          "generationtime_ms": 0.29337406158447266,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",

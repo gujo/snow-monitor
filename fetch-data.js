@@ -293,7 +293,7 @@ footer a{color:#3a6a8a}
 
 async function fetchAvalancheData() {
   try {
-    // Fetch EUREGIO CAAMLv6 bulletin (nearest structured source for western Alps)
+    // Fetch EUREGIO bulletin (covers Tyrol-Trentino region, nearest reliable data for western Alps)
     const raw = await fetch('https://static.avalanche.report/bulletins/latest/EUREGIO_en_CAAMLv6.json');
     const data = JSON.parse(raw);
     // Get highest danger level across all bulletins
@@ -318,7 +318,7 @@ async function fetchAvalancheData() {
       emoji: emojiMap[maxLevel],
       validFrom: validTime?.startTime,
       validTo: validTime?.endTime,
-      source: 'EUREGIO/avalanche.report',
+      source: 'EUREGIO (Tyrol-Trentino)',
       url: 'https://avalanche.report'
     };
   } catch (e) {

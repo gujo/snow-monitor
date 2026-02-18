@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-18T12:39:49.548Z",
+  "timestamp": "2026-02-18T13:25:55.824Z",
   "resorts": [
     {
       "resort": {
@@ -20,7 +20,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4385709762573242,
+          "generationtime_ms": 0.3151893615722656,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -37,15 +37,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-18T13:30",
+            "time": "2026-02-18T14:15",
             "interval": 900,
-            "temperature_2m": -0.1,
-            "apparent_temperature": -3.5,
+            "temperature_2m": 1.5,
+            "apparent_temperature": -1.9,
             "snowfall": 0,
-            "snow_depth": 1.52,
-            "weather_code": 1,
-            "wind_speed_10m": 5.5,
-            "wind_gusts_10m": 10.1
+            "snow_depth": 1.55,
+            "weather_code": 3,
+            "wind_speed_10m": 5.9,
+            "wind_gusts_10m": 11.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -69,7 +69,7 @@
               11.41,
               1.68,
               0,
-              2.73,
+              2.45,
               0,
               0,
               0,
@@ -81,7 +81,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4954338073730469,
+          "generationtime_ms": 0.5583763122558594,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -98,15 +98,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-18T13:30",
+            "time": "2026-02-18T14:15",
             "interval": 900,
-            "temperature_2m": -4,
-            "apparent_temperature": -7.7,
+            "temperature_2m": -3.5,
+            "apparent_temperature": -7.3,
             "snowfall": 0,
-            "snow_depth": 2.05,
-            "weather_code": 1,
-            "wind_speed_10m": 4.7,
-            "wind_gusts_10m": 11.2
+            "snow_depth": 2.07,
+            "weather_code": 3,
+            "wind_speed_10m": 5.2,
+            "wind_gusts_10m": 11.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -130,7 +130,7 @@
               13.3,
               3.78,
               0,
-              2.94,
+              2.45,
               0,
               0,
               0,
@@ -142,7 +142,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.24199485778808594,
+          "generationtime_ms": 0.38063526153564453,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -159,15 +159,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-18T13:30",
+            "time": "2026-02-18T14:15",
             "interval": 900,
-            "temperature_2m": -7.1,
-            "apparent_temperature": -12,
+            "temperature_2m": -6.9,
+            "apparent_temperature": -12.1,
             "snowfall": 0,
-            "snow_depth": 2.31,
-            "weather_code": 1,
-            "wind_speed_10m": 13.1,
-            "wind_gusts_10m": 42.8
+            "snow_depth": 2.32,
+            "weather_code": 3,
+            "wind_speed_10m": 13.7,
+            "wind_gusts_10m": 41.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -191,7 +191,7 @@
               13.02,
               2.31,
               0,
-              3.71,
+              3.29,
               0,
               0,
               0,
@@ -218,7 +218,7 @@
         "emoji": "🔴",
         "validFrom": "2026-02-17T16:00:00Z",
         "validTo": "2026-02-18T16:00:00Z",
-        "source": "EUREGIO/avalanche.report",
+        "source": "EUREGIO (Tyrol-Trentino)",
         "url": "https://avalanche.report"
       }
     }

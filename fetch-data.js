@@ -29,7 +29,7 @@ function fetch(url) {
 async function fetchOpenMeteo(resort) {
   const results = {};
   for (const [station, elev] of Object.entries(resort.elevations)) {
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${resort.lat}&longitude=${resort.lon}&elevation=${elev}&current=temperature_2m,apparent_temperature,snowfall,snow_depth,weather_code,wind_speed_10m,wind_gusts_10m&timezone=Europe/Rome&forecast_days=1`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${resort.lat}&longitude=${resort.lon}&elevation=${elev}&current=temperature_2m,apparent_temperature,snowfall,snow_depth,weather_code,wind_speed_10m,wind_gusts_10m&daily=snowfall_sum&timezone=Europe/Rome&past_days=3&forecast_days=7`;
     try {
       const raw = await fetch(url);
       results[station] = JSON.parse(raw);
@@ -154,6 +154,36 @@ function generateHTML(allData, timestamp) {
         </div>`;
     }
 
+    // Fresh snow (last 3 days) & forecast (next 3 & 7 days) — use top elevation
+    let snowForecastInfo = '';
+    const topW = weather['top'];
+    if (topW && topW.daily && topW.daily.snowfall_sum && topW.daily.time) {
+      const times = topW.daily.time;
+      const snows = topW.daily.snowfall_sum;
+      const today = new Date().toISOString().slice(0, 10);
+      const todayIdx = times.indexOf(today);
+      // Past 3 days: indices before today
+      let fresh3 = 0;
+      for (let i = 0; i < times.length; i++) {
+        if (times[i] < today) fresh3 += (snows[i] || 0);
+      }
+      // Next 3 days & 7 days (including today)
+      let next3 = 0, next7 = 0;
+      let futureCount = 0;
+      for (let i = 0; i < times.length; i++) {
+        if (times[i] >= today) {
+          next7 += (snows[i] || 0);
+          if (futureCount < 3) next3 += (snows[i] || 0);
+          futureCount++;
+        }
+      }
+      snowForecastInfo = '<div class="snow-forecast">' +
+          '<div class="sf-item"><span class="sf-val">' + fresh3.toFixed(1) + 'cm</span><span class="sf-lbl">Fresh (3d)</span></div>' +
+          '<div class="sf-item"><span class="sf-val">' + next3.toFixed(1) + 'cm</span><span class="sf-lbl">Next 3d</span></div>' +
+          '<div class="sf-item"><span class="sf-val">' + next7.toFixed(1) + 'cm</span><span class="sf-lbl">Next 7d</span></div>' +
+        '</div>';
+    }
+
     // Avalanche risk
     let avalancheInfo = '';
     if (avalanche) {
@@ -172,6 +202,7 @@ function generateHTML(allData, timestamp) {
           <span class="area">${resort.area}</span>
         </div>
         ${avalancheInfo}
+        ${snowForecastInfo}
         ${liftInfo}
         ${snowInfo}
         <div class="stations">${stationRows}</div>
@@ -211,6 +242,11 @@ header h1::before{content:'🏔️ '}
 .lift-bar{height:4px;background:#1a2a3a;border-radius:2px;margin-top:4px;overflow:hidden}
 .lift-fill{height:100%;background:#4ecdc4;border-radius:2px;transition:width .3s}
 .piste-fill{background:#7eb8da}
+
+.snow-forecast{display:flex;gap:8px;margin-bottom:14px;padding:10px 12px;background:#0d1a28;border-radius:10px}
+.sf-item{flex:1;text-align:center}
+.sf-val{display:block;font-size:1.2em;font-weight:700;color:#b3e5fc}
+.sf-lbl{font-size:.6em;color:#5a7a8a;text-transform:uppercase;letter-spacing:.5px}
 
 .snow-report{display:flex;gap:12px;margin-bottom:14px;padding:10px 12px;background:#0d1a28;border-radius:10px}
 .snow-stat{flex:1;text-align:center}

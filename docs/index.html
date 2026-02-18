@@ -29,6 +29,11 @@ header h1::before{content:'🏔️ '}
 .lift-fill{height:100%;background:#4ecdc4;border-radius:2px;transition:width .3s}
 .piste-fill{background:#7eb8da}
 
+.snow-forecast{display:flex;gap:8px;margin-bottom:14px;padding:10px 12px;background:#0d1a28;border-radius:10px}
+.sf-item{flex:1;text-align:center}
+.sf-val{display:block;font-size:1.2em;font-weight:700;color:#b3e5fc}
+.sf-lbl{font-size:.6em;color:#5a7a8a;text-transform:uppercase;letter-spacing:.5px}
+
 .snow-report{display:flex;gap:12px;margin-bottom:14px;padding:10px 12px;background:#0d1a28;border-radius:10px}
 .snow-stat{flex:1;text-align:center}
 .snow-val{display:block;font-size:1.2em;font-weight:700;color:#81d4fa}
@@ -77,6 +82,7 @@ footer a{color:#3a6a8a}
           <span class="avy-level">Avalanche Risk: <strong>High</strong> (4/5)</span>
           <a href="https://avalanche.report" class="avy-link" target="_blank">↗</a>
         </div>
+        <div class="snow-forecast"><div class="sf-item"><span class="sf-val">17.2cm</span><span class="sf-lbl">Fresh (3d)</span></div><div class="sf-item"><span class="sf-val">4.3cm</span><span class="sf-lbl">Next 3d</span></div><div class="sf-item"><span class="sf-val">4.3cm</span><span class="sf-lbl">Next 7d</span></div></div>
         
         <div class="lift-grid">
           <div class="lift-stat">

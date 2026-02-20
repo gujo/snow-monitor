@@ -74,6 +74,26 @@ async function fetchLiftPisteData(resort) {
   return result;
 }
 
+async function fetchSkiramaData(resort) {
+  if (!resort.skiramaUrl) return { lifts: [], pistes: [] };
+  try {
+    const html = await fetch(resort.skiramaUrl);
+    const pattern = /data-x='[^']*'\s+data-y='[^']*'\s+data-status='([^']+)'\s+data-type='([^']+)'\s+title='([^']+)'/g;
+    const lifts = [], pistes = [];
+    let m;
+    while ((m = pattern.exec(html)) !== null) {
+      const [, status, type, name] = m;
+      const entry = { name, status }; // status: open | closed | evaluating
+      if (type === 'lift') lifts.push(entry);
+      else if (type === 'slope') pistes.push(entry);
+    }
+    return { lifts, pistes };
+  } catch (e) {
+    console.error(`  Skirama data failed: ${e.message}`);
+    return { lifts: [], pistes: [] };
+  }
+}
+
 function weatherDesc(code) {
   const map = {
     0: ['Clear', '☀️'], 1: ['Mostly clear', '🌤️'], 2: ['Partly cloudy', '⛅'],
@@ -97,7 +117,7 @@ function generateHTML(allData, timestamp) {
 
   let resortCards = '';
 
-  for (const { resort, weather, lifts, avalanche } of allData) {
+  for (const { resort, weather, lifts, skirama, avalanche } of allData) {
     // Station rows - compact
     let stationRows = '';
     for (const station of ['top', 'mid', 'bottom']) {
@@ -141,6 +161,36 @@ function generateHTML(allData, timestamp) {
             <div class="lift-label">Open</div>
           </div>` : ''}
         </div>`;
+    }
+
+    // Expandable lift and piste details
+    let detailSections = '';
+    if (skirama && (skirama.lifts.length > 0 || skirama.pistes.length > 0)) {
+      const statusBadge = (s) =>
+        s === 'open' ? '<span class="badge open">●</span>' :
+        s === 'evaluating' ? '<span class="badge eval">●</span>' :
+        '<span class="badge closed">●</span>';
+
+      const liftRows = skirama.lifts.map(l =>
+        `<div class="detail-row">${statusBadge(l.status)}<span class="detail-name">${l.name}</span></div>`
+      ).join('');
+
+      const pisteRows = skirama.pistes.map(p =>
+        `<div class="detail-row">${statusBadge(p.status)}<span class="detail-name">${p.name}</span></div>`
+      ).join('');
+
+      const openLifts = skirama.lifts.filter(l => l.status === 'open').length;
+      const openPistes = skirama.pistes.filter(p => p.status === 'open').length;
+
+      detailSections = `
+        <details class="detail-section">
+          <summary>🚡 Lifts <span class="detail-count">${openLifts}/${skirama.lifts.length} open</span></summary>
+          <div class="detail-list">${liftRows}</div>
+        </details>
+        <details class="detail-section">
+          <summary>⛷️ Pistes <span class="detail-count">${openPistes}/${skirama.pistes.length} open</span></summary>
+          <div class="detail-list">${pisteRows}</div>
+        </details>`;
     }
 
     // Snow depths from OnTheSnow (more accurate than Open-Meteo for resort-reported)
@@ -204,6 +254,7 @@ function generateHTML(allData, timestamp) {
         ${avalancheInfo}
         ${snowForecastInfo}
         ${liftInfo}
+        ${detailSections}
         ${snowInfo}
         <div class="stations">${stationRows}</div>
         <div class="stations-legend">
@@ -276,6 +327,21 @@ header h1::before{content:'🏔️ '}
 
 footer{text-align:center;color:#2a3a4a;font-size:.6em;padding:8px 0}
 footer a{color:#3a6a8a}
+
+.detail-section{margin-bottom:8px;border-radius:8px;background:#0d1a28;overflow:hidden}
+.detail-section summary{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;font-size:.82em;font-weight:600;cursor:pointer;list-style:none;user-select:none;color:#c8d8e8}
+.detail-section summary::-webkit-details-marker{display:none}
+.detail-section summary::before{content:'▶';font-size:.6em;margin-right:8px;transition:transform .2s;color:#5a7a8a}
+.detail-section[open] summary::before{transform:rotate(90deg)}
+.detail-count{font-size:.75em;color:#5a7a8a;font-weight:400;margin-left:4px}
+.detail-list{padding:4px 12px 10px}
+.detail-row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.78em}
+.detail-row:last-child{border:none}
+.badge{font-size:1.1em;flex-shrink:0}
+.badge.open{color:#4ecdc4}
+.badge.closed{color:#e05a5a}
+.badge.eval{color:#f0a040}
+.detail-name{color:#9ab0c0;text-transform:capitalize;font-size:.85em}
 </style>
 </head>
 <body>
@@ -338,7 +404,9 @@ async function main() {
     console.log(`  ${resort.name}...`);
     const weather = await fetchOpenMeteo(resort);
     const lifts = await fetchLiftPisteData(resort);
-    allData.push({ resort, weather, lifts, avalanche });
+    const skirama = await fetchSkiramaData(resort);
+    console.log(`  Lifts: ${skirama.lifts.length}, Pistes: ${skirama.pistes.length}`);
+    allData.push({ resort, weather, lifts, skirama, avalanche });
   }
 
   const timestamp = new Date().toISOString();

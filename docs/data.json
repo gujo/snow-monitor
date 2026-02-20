@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-20T12:36:52.624Z",
+  "timestamp": "2026-02-20T14:01:34.224Z",
   "resorts": [
     {
       "resort": {
@@ -14,13 +14,14 @@
           "mid": 2146,
           "top": 2705
         },
-        "onTheSnowUrl": "https://www.onthesnow.co.uk/italy/champoluc-monterosa-ski/skireport"
+        "onTheSnowUrl": "https://www.onthesnow.co.uk/italy/champoluc-monterosa-ski/skireport",
+        "skiramaUrl": "https://monterosaski.eu/in-tempo-reale/skirama/monterosa-ski-3-valli"
       },
       "weather": {
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.24783611297607422,
+          "generationtime_ms": 0.2353191375732422,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -37,15 +38,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-20T13:30",
+            "time": "2026-02-20T15:00",
             "interval": 900,
             "temperature_2m": 6,
-            "apparent_temperature": 1.8,
+            "apparent_temperature": 1.1,
             "snowfall": 0,
-            "snow_depth": 1.56,
-            "weather_code": 0,
-            "wind_speed_10m": 9.7,
-            "wind_gusts_10m": 18
+            "snow_depth": 1.59,
+            "weather_code": 3,
+            "wind_speed_10m": 11.4,
+            "wind_gusts_10m": 22.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -81,7 +82,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4080533981323242,
+          "generationtime_ms": 0.24652481079101562,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -98,15 +99,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-20T13:30",
+            "time": "2026-02-20T15:00",
             "interval": 900,
-            "temperature_2m": 0.6,
-            "apparent_temperature": -2.5,
+            "temperature_2m": 1.4,
+            "apparent_temperature": -3.1,
             "snowfall": 0,
-            "snow_depth": 2.13,
-            "weather_code": 0,
-            "wind_speed_10m": 1.5,
-            "wind_gusts_10m": 11.5
+            "snow_depth": 2.14,
+            "weather_code": 2,
+            "wind_speed_10m": 7.4,
+            "wind_gusts_10m": 21.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -130,7 +131,7 @@
               0,
               1.96,
               0.07,
-              1.12,
+              1.33,
               0,
               0,
               0,
@@ -142,7 +143,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.52642822265625,
+          "generationtime_ms": 0.35262107849121094,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -159,15 +160,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-20T13:30",
+            "time": "2026-02-20T15:00",
             "interval": 900,
-            "temperature_2m": -4.2,
+            "temperature_2m": -3.7,
             "apparent_temperature": -10.2,
             "snowfall": 0,
-            "snow_depth": 2.31,
-            "weather_code": 0,
-            "wind_speed_10m": 19.9,
-            "wind_gusts_10m": 31.3
+            "snow_depth": 2.27,
+            "weather_code": 2,
+            "wind_speed_10m": 20.6,
+            "wind_gusts_10m": 33.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -210,6 +211,256 @@
         "baseDepth": 60,
         "summitDepth": 95,
         "condition": "Machine Groomed"
+      },
+      "skirama": {
+        "lifts": [
+          {
+            "name": "CREST-ALPE OSTAFA III",
+            "status": "open"
+          },
+          {
+            "name": "ALPE OSTAFA-COLLE SAREZZA II",
+            "status": "open"
+          },
+          {
+            "name": "LAGO CIARCERIO-ALPE BELVEDERE",
+            "status": "open"
+          },
+          {
+            "name": "FRACHEY-ALPE CIARCERIO",
+            "status": "open"
+          },
+          {
+            "name": "ALPE MANDRIA",
+            "status": "open"
+          },
+          {
+            "name": "BETTAFORCA",
+            "status": "open"
+          },
+          {
+            "name": "CHAMPOLUC-CREST",
+            "status": "open"
+          },
+          {
+            "name": "FONTANEY 1",
+            "status": "open"
+          },
+          {
+            "name": "SANTANNA-BETTAFORCA",
+            "status": "open"
+          },
+          {
+            "name": "STAFAL-SANTANNA",
+            "status": "open"
+          },
+          {
+            "name": "STAFAL-GABIET",
+            "status": "open"
+          },
+          {
+            "name": "GABIET-LAGO",
+            "status": "open"
+          },
+          {
+            "name": "BEDEMIE-SEEHORN",
+            "status": "open"
+          },
+          {
+            "name": "PUNTA JOLANDA",
+            "status": "open"
+          },
+          {
+            "name": "GABIET-PASSO DEI SALATI",
+            "status": "open"
+          },
+          {
+            "name": "PASSO DEI SALATI-INDREN",
+            "status": "evaluating"
+          },
+          {
+            "name": "MOOS",
+            "status": "open"
+          },
+          {
+            "name": "PIANALUNGA-CIMALEGNA-SALAT",
+            "status": "open"
+          },
+          {
+            "name": "ALAGNA-PIANALUNGA",
+            "status": "open"
+          },
+          {
+            "name": "PIANALUNGA-BOCCHETTA",
+            "status": "open"
+          },
+          {
+            "name": "WOLD 2",
+            "status": "open"
+          },
+          {
+            "name": "TAPIS ROULANT WOLD",
+            "status": "open"
+          },
+          {
+            "name": "TAPIS ROULANT PIANALUNGA",
+            "status": "open"
+          },
+          {
+            "name": "CIMALEGNA-SALATI",
+            "status": "evaluating"
+          }
+        ],
+        "pistes": [
+          {
+            "name": "DEL BOSCO",
+            "status": "open"
+          },
+          {
+            "name": "DEL LAGO",
+            "status": "open"
+          },
+          {
+            "name": "DEL MONTE",
+            "status": "open"
+          },
+          {
+            "name": "LIAISON",
+            "status": "open"
+          },
+          {
+            "name": "DEL COLLE",
+            "status": "open"
+          },
+          {
+            "name": "DEI LARICI",
+            "status": "open"
+          },
+          {
+            "name": "OSTAFA 2",
+            "status": "open"
+          },
+          {
+            "name": "OSTAFA 1",
+            "status": "open"
+          },
+          {
+            "name": "SAREZZA",
+            "status": "open"
+          },
+          {
+            "name": "SAREZZA-CONTENERY",
+            "status": "open"
+          },
+          {
+            "name": "BELVEDERE",
+            "status": "open"
+          },
+          {
+            "name": "CIOSAL",
+            "status": "open"
+          },
+          {
+            "name": "CONTENERY",
+            "status": "open"
+          },
+          {
+            "name": "COLLE BETTAFORCA",
+            "status": "open"
+          },
+          {
+            "name": "PISTONE BETTA",
+            "status": "open"
+          },
+          {
+            "name": "NERA",
+            "status": "open"
+          },
+          {
+            "name": "DIRETTA STAFAL",
+            "status": "open"
+          },
+          {
+            "name": "CHAMOIS",
+            "status": "open"
+          },
+          {
+            "name": "COLLEGAMENTO GABIET",
+            "status": "open"
+          },
+          {
+            "name": "COLLEGAMENTO RICKA",
+            "status": "open"
+          },
+          {
+            "name": "SEEHORN",
+            "status": "open"
+          },
+          {
+            "name": "JOLANDA parte alta",
+            "status": "open"
+          },
+          {
+            "name": "JOLANDA 1",
+            "status": "open"
+          },
+          {
+            "name": "ALPE RICKA",
+            "status": "open"
+          },
+          {
+            "name": "MOOS",
+            "status": "open"
+          },
+          {
+            "name": "SALATI",
+            "status": "open"
+          },
+          {
+            "name": "CASTORE",
+            "status": "open"
+          },
+          {
+            "name": "COLLE BETTA",
+            "status": "open"
+          },
+          {
+            "name": "PASSO DEI SALATI",
+            "status": "open"
+          },
+          {
+            "name": "JOLANDA parte bassa",
+            "status": "open"
+          },
+          {
+            "name": "ALAGNA",
+            "status": "open"
+          },
+          {
+            "name": "MULLERO",
+            "status": "open"
+          },
+          {
+            "name": "OLEN",
+            "status": "open"
+          },
+          {
+            "name": "CIMALEGNA",
+            "status": "open"
+          },
+          {
+            "name": "BODWITCH",
+            "status": "open"
+          },
+          {
+            "name": "MULLERO COMPETITION",
+            "status": "open"
+          },
+          {
+            "name": "RACCORDO COMPETITION",
+            "status": "open"
+          }
+        ]
       },
       "avalanche": {
         "level": 4,

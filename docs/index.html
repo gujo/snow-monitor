@@ -62,13 +62,28 @@ header h1::before{content:'🏔️ '}
 
 footer{text-align:center;color:#2a3a4a;font-size:.6em;padding:8px 0}
 footer a{color:#3a6a8a}
+
+.detail-section{margin-bottom:8px;border-radius:8px;background:#0d1a28;overflow:hidden}
+.detail-section summary{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;font-size:.82em;font-weight:600;cursor:pointer;list-style:none;user-select:none;color:#c8d8e8}
+.detail-section summary::-webkit-details-marker{display:none}
+.detail-section summary::before{content:'▶';font-size:.6em;margin-right:8px;transition:transform .2s;color:#5a7a8a}
+.detail-section[open] summary::before{transform:rotate(90deg)}
+.detail-count{font-size:.75em;color:#5a7a8a;font-weight:400;margin-left:4px}
+.detail-list{padding:4px 12px 10px}
+.detail-row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.78em}
+.detail-row:last-child{border:none}
+.badge{font-size:1.1em;flex-shrink:0}
+.badge.open{color:#4ecdc4}
+.badge.closed{color:#e05a5a}
+.badge.eval{color:#f0a040}
+.detail-name{color:#9ab0c0;text-transform:capitalize;font-size:.85em}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Snow Monitor</h1>
-    <p class="updated">20 Feb 2026, 13:36 CET</p>
+    <p class="updated">20 Feb 2026, 15:01 CET</p>
   </header>
   
       <div class="card">
@@ -103,6 +118,15 @@ footer a{color:#3a6a8a}
           </div>
         </div>
         
+        <details class="detail-section">
+          <summary>🚡 Lifts <span class="detail-count">22/24 open</span></summary>
+          <div class="detail-list"><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CREST-ALPE OSTAFA III</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">ALPE OSTAFA-COLLE SAREZZA II</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">LAGO CIARCERIO-ALPE BELVEDERE</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">FRACHEY-ALPE CIARCERIO</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">ALPE MANDRIA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">BETTAFORCA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CHAMPOLUC-CREST</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">FONTANEY 1</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">SANTANNA-BETTAFORCA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">STAFAL-SANTANNA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">STAFAL-GABIET</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">GABIET-LAGO</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">BEDEMIE-SEEHORN</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">PUNTA JOLANDA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">GABIET-PASSO DEI SALATI</span></div><div class="detail-row"><span class="badge eval">●</span><span class="detail-name">PASSO DEI SALATI-INDREN</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">MOOS</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">PIANALUNGA-CIMALEGNA-SALAT</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">ALAGNA-PIANALUNGA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">PIANALUNGA-BOCCHETTA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">WOLD 2</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">TAPIS ROULANT WOLD</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">TAPIS ROULANT PIANALUNGA</span></div><div class="detail-row"><span class="badge eval">●</span><span class="detail-name">CIMALEGNA-SALATI</span></div></div>
+        </details>
+        <details class="detail-section">
+          <summary>⛷️ Pistes <span class="detail-count">37/37 open</span></summary>
+          <div class="detail-list"><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DEL BOSCO</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DEL LAGO</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DEL MONTE</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">LIAISON</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DEL COLLE</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DEI LARICI</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">OSTAFA 2</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">OSTAFA 1</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">SAREZZA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">SAREZZA-CONTENERY</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">BELVEDERE</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CIOSAL</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CONTENERY</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">COLLE BETTAFORCA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">PISTONE BETTA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">NERA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">DIRETTA STAFAL</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CHAMOIS</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">COLLEGAMENTO GABIET</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">COLLEGAMENTO RICKA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">SEEHORN</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">JOLANDA parte alta</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">JOLANDA 1</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">ALPE RICKA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">MOOS</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">SALATI</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CASTORE</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">COLLE BETTA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">PASSO DEI SALATI</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">JOLANDA parte bassa</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">ALAGNA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">MULLERO</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">OLEN</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">CIMALEGNA</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">BODWITCH</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">MULLERO COMPETITION</span></div><div class="detail-row"><span class="badge open">●</span><span class="detail-name">RACCORDO COMPETITION</span></div></div>
+        </details>
+        
         <div class="snow-report">
           <div class="snow-stat"><span class="snow-val">95cm</span><span class="snow-lbl">Summit</span></div>
           <div class="snow-stat"><span class="snow-val">60cm</span><span class="snow-lbl">Base</span></div>
@@ -111,24 +135,24 @@ footer a{color:#3a6a8a}
         <div class="stations">
         <div class="station">
           <div class="st-label">⛰️ Top<span class="elev">2705m</span></div>
-          <div class="st-temp">-4.2°</div>
-          <div class="st-weather">☀️</div>
-          <div class="st-snow">231cm</div>
-          <div class="st-wind">19.9<span class="unit">km/h</span></div>
+          <div class="st-temp">-3.7°</div>
+          <div class="st-weather">⛅</div>
+          <div class="st-snow">227cm</div>
+          <div class="st-wind">20.6<span class="unit">km/h</span></div>
         </div>
         <div class="station">
           <div class="st-label">🏔️ Mid<span class="elev">2146m</span></div>
-          <div class="st-temp">0.6°</div>
-          <div class="st-weather">☀️</div>
-          <div class="st-snow">213cm</div>
-          <div class="st-wind">1.5<span class="unit">km/h</span></div>
+          <div class="st-temp">1.4°</div>
+          <div class="st-weather">⛅</div>
+          <div class="st-snow">214cm</div>
+          <div class="st-wind">7.4<span class="unit">km/h</span></div>
         </div>
         <div class="station">
           <div class="st-label">🏠 Base<span class="elev">1568m</span></div>
           <div class="st-temp">6°</div>
-          <div class="st-weather">☀️</div>
-          <div class="st-snow">156cm</div>
-          <div class="st-wind">9.7<span class="unit">km/h</span></div>
+          <div class="st-weather">☁️</div>
+          <div class="st-snow">159cm</div>
+          <div class="st-wind">11.4<span class="unit">km/h</span></div>
         </div></div>
         <div class="stations-legend">
           <span></span><span>Temp</span><span></span><span>Snow</span><span>Wind</span>

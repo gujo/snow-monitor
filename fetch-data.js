@@ -137,31 +137,7 @@ function generateHTML(allData, timestamp) {
         </div>`;
     }
 
-    // Lift/piste status
-    let liftInfo = '';
-    if (lifts.liftsOpen !== null) {
-      const liftPct = Math.round(lifts.liftsOpen / lifts.liftsTotal * 100);
-      const runPct = lifts.runsOpen !== null ? Math.round(lifts.runsOpen / lifts.runsTotal * 100) : null;
-      liftInfo = `
-        <div class="lift-grid">
-          <div class="lift-stat">
-            <div class="lift-num">${lifts.liftsOpen}<span class="lift-total">/${lifts.liftsTotal}</span></div>
-            <div class="lift-label">Lifts</div>
-            <div class="lift-bar"><div class="lift-fill" style="width:${liftPct}%"></div></div>
-          </div>
-          ${lifts.runsOpen !== null ? `
-          <div class="lift-stat">
-            <div class="lift-num">${lifts.runsOpen}<span class="lift-total">/${lifts.runsTotal}</span></div>
-            <div class="lift-label">Pistes</div>
-            <div class="lift-bar"><div class="lift-fill piste-fill" style="width:${runPct}%"></div></div>
-          </div>` : ''}
-          ${lifts.kmOpen !== null ? `
-          <div class="lift-stat">
-            <div class="lift-num">${lifts.kmOpen}<span class="lift-total">km</span></div>
-            <div class="lift-label">Open</div>
-          </div>` : ''}
-        </div>`;
-    }
+    // Lift/piste status — removed; info shown in foldable detail sections below
 
     // Expandable lift and piste details
     let detailSections = '';
@@ -253,7 +229,6 @@ function generateHTML(allData, timestamp) {
         </div>
         ${avalancheInfo}
         ${snowForecastInfo}
-        ${liftInfo}
         ${detailSections}
         ${snowInfo}
         <div class="stations">${stationRows}</div>
@@ -329,19 +304,19 @@ footer{text-align:center;color:#2a3a4a;font-size:.6em;padding:8px 0}
 footer a{color:#3a6a8a}
 
 .detail-section{margin-bottom:8px;border-radius:8px;background:#0d1a28;overflow:hidden}
-.detail-section summary{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;font-size:.82em;font-weight:600;cursor:pointer;list-style:none;user-select:none;color:#c8d8e8}
+.detail-section summary{display:flex;align-items:center;justify-content:space-between;padding:11px 12px;font-size:.95em;font-weight:600;cursor:pointer;list-style:none;user-select:none;color:#c8d8e8}
 .detail-section summary::-webkit-details-marker{display:none}
-.detail-section summary::before{content:'▶';font-size:.6em;margin-right:8px;transition:transform .2s;color:#5a7a8a}
+.detail-section summary::before{content:'▶';font-size:.65em;margin-right:8px;transition:transform .2s;color:#5a7a8a}
 .detail-section[open] summary::before{transform:rotate(90deg)}
-.detail-count{font-size:.75em;color:#5a7a8a;font-weight:400;margin-left:4px}
+.detail-count{font-size:.85em;color:#5a7a8a;font-weight:400;margin-left:4px}
 .detail-list{padding:4px 12px 10px}
-.detail-row{display:flex;align-items:center;gap:8px;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.78em}
+.detail-row{display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:.9em}
 .detail-row:last-child{border:none}
-.badge{font-size:1.1em;flex-shrink:0}
+.badge{font-size:1.2em;flex-shrink:0}
 .badge.open{color:#4ecdc4}
 .badge.closed{color:#e05a5a}
 .badge.eval{color:#f0a040}
-.detail-name{color:#9ab0c0;text-transform:capitalize;font-size:.85em}
+.detail-name{color:#9ab0c0;text-transform:capitalize;font-size:.95em}
 </style>
 </head>
 <body>

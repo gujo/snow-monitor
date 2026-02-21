@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-21T09:21:22.895Z",
+  "timestamp": "2026-02-21T09:50:35.892Z",
   "resorts": [
     {
       "resort": {
@@ -21,7 +21,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.36334991455078125,
+          "generationtime_ms": 0.3904104232788086,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -38,15 +38,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T10:15",
+            "time": "2026-02-21T10:45",
             "interval": 900,
-            "temperature_2m": 0.7,
-            "apparent_temperature": -2.5,
+            "temperature_2m": 1,
+            "apparent_temperature": -3.1,
             "snowfall": 0,
             "snow_depth": 1.61,
             "weather_code": 0,
-            "wind_speed_10m": 2.3,
-            "wind_gusts_10m": 10.8
+            "wind_speed_10m": 8.1,
+            "wind_gusts_10m": 15.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -82,7 +82,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.6225109100341797,
+          "generationtime_ms": 0.2397298812866211,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -99,15 +99,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T10:15",
+            "time": "2026-02-21T10:45",
             "interval": 900,
-            "temperature_2m": -0.1,
-            "apparent_temperature": -6.9,
+            "temperature_2m": 0,
+            "apparent_temperature": -7.8,
             "snowfall": 0,
             "snow_depth": 2.11,
             "weather_code": 0,
-            "wind_speed_10m": 25.1,
-            "wind_gusts_10m": 48.6
+            "wind_speed_10m": 32.6,
+            "wind_gusts_10m": 57.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -143,7 +143,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.4856586456298828,
+          "generationtime_ms": 0.2574920654296875,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -160,15 +160,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T10:15",
+            "time": "2026-02-21T10:45",
             "interval": 900,
-            "temperature_2m": -5.6,
-            "apparent_temperature": -13.3,
+            "temperature_2m": -5.3,
+            "apparent_temperature": -13.6,
             "snowfall": 0,
             "snow_depth": 2.24,
             "weather_code": 0,
-            "wind_speed_10m": 30.1,
-            "wind_gusts_10m": 76.3
+            "wind_speed_10m": 34.9,
+            "wind_gusts_10m": 85.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -236,7 +236,7 @@
           },
           {
             "name": "BETTAFORCA",
-            "status": "evaluating"
+            "status": "closed"
           },
           {
             "name": "CHAMPOLUC-CREST",
@@ -264,7 +264,7 @@
           },
           {
             "name": "BEDEMIE-SEEHORN",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "PUNTA JOLANDA",
@@ -330,7 +330,7 @@
           },
           {
             "name": "DEL COLLE",
-            "status": "evaluating"
+            "status": "closed"
           },
           {
             "name": "DEI LARICI",
@@ -366,7 +366,7 @@
           },
           {
             "name": "COLLE BETTAFORCA",
-            "status": "evaluating"
+            "status": "closed"
           },
           {
             "name": "PISTONE BETTA",
@@ -386,15 +386,15 @@
           },
           {
             "name": "COLLEGAMENTO GABIET",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "COLLEGAMENTO RICKA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "SEEHORN",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA parte alta",
@@ -406,7 +406,7 @@
           },
           {
             "name": "ALPE RICKA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "MOOS",

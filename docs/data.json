@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-21T22:47:52.775Z",
+  "timestamp": "2026-02-21T23:16:12.957Z",
   "resorts": [
     {
       "resort": {
@@ -21,7 +21,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4382133483886719,
+          "generationtime_ms": 0.30171871185302734,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -38,15 +38,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T23:45",
+            "time": "2026-02-22T00:15",
             "interval": 900,
-            "temperature_2m": 1.6,
-            "apparent_temperature": -2.3,
+            "temperature_2m": 1.4,
+            "apparent_temperature": -2.5,
             "snowfall": 0,
             "snow_depth": 1.64,
             "weather_code": 0,
-            "wind_speed_10m": 8.2,
-            "wind_gusts_10m": 16.9
+            "wind_speed_10m": 7.4,
+            "wind_gusts_10m": 14.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -54,7 +54,6 @@
           },
           "daily": {
             "time": [
-              "2026-02-18",
               "2026-02-19",
               "2026-02-20",
               "2026-02-21",
@@ -63,11 +62,12 @@
               "2026-02-24",
               "2026-02-25",
               "2026-02-26",
-              "2026-02-27"
+              "2026-02-27",
+              "2026-02-28"
             ],
             "snowfall_sum": [
-              0,
               1.4,
+              0,
               0,
               0,
               0,
@@ -82,7 +82,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.5207061767578125,
+          "generationtime_ms": 0.20956993103027344,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -99,15 +99,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T23:45",
+            "time": "2026-02-22T00:15",
             "interval": 900,
-            "temperature_2m": -0.8,
-            "apparent_temperature": -6.2,
+            "temperature_2m": -0.6,
+            "apparent_temperature": -5.9,
             "snowfall": 0,
             "snow_depth": 2.09,
             "weather_code": 0,
-            "wind_speed_10m": 15.2,
-            "wind_gusts_10m": 25.6
+            "wind_speed_10m": 14.2,
+            "wind_gusts_10m": 25.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -115,7 +115,6 @@
           },
           "daily": {
             "time": [
-              "2026-02-18",
               "2026-02-19",
               "2026-02-20",
               "2026-02-21",
@@ -124,13 +123,14 @@
               "2026-02-24",
               "2026-02-25",
               "2026-02-26",
-              "2026-02-27"
+              "2026-02-27",
+              "2026-02-28"
             ],
             "snowfall_sum": [
-              0,
               1.96,
               0.07,
               0.35,
+              0,
               0,
               0,
               0,
@@ -143,7 +143,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.2586841583251953,
+          "generationtime_ms": 0.4379749298095703,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -160,15 +160,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-21T23:45",
+            "time": "2026-02-22T00:15",
             "interval": 900,
             "temperature_2m": -2.6,
-            "apparent_temperature": -7.9,
+            "apparent_temperature": -8,
             "snowfall": 0,
             "snow_depth": 2.3,
-            "weather_code": 0,
-            "wind_speed_10m": 11.6,
-            "wind_gusts_10m": 38.9
+            "weather_code": 1,
+            "wind_speed_10m": 12.4,
+            "wind_gusts_10m": 41.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -176,7 +176,6 @@
           },
           "daily": {
             "time": [
-              "2026-02-18",
               "2026-02-19",
               "2026-02-20",
               "2026-02-21",
@@ -185,11 +184,12 @@
               "2026-02-24",
               "2026-02-25",
               "2026-02-26",
-              "2026-02-27"
+              "2026-02-27",
+              "2026-02-28"
             ],
             "snowfall_sum": [
-              0,
               2.52,
+              0,
               0,
               0,
               0,

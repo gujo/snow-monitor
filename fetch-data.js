@@ -74,6 +74,57 @@ async function fetchLiftPisteData(resort) {
   return result;
 }
 
+async function fetchLiftSchedule(resort) {
+  if (!resort.liftScheduleUrl) return { hours: {}, generalOpen: null, generalClose: null };
+  try {
+    const html = await fetch(resort.liftScheduleUrl);
+    // Structure: <p>..LiftName (N)..</p> followed by <ul><li>HH.MM – HH.MM ..</li>..</ul>
+    const blockRe = /<p[^>]*>(.*?)<\/p>\s*<ul[^>]*>(.*?)<\/ul>/gis;
+    const liftTypeRe = /^(?:Gondola|Chairlift|Funicular|Funifor|Cableway|Tapis(?:\s+Roulant?)?)\s+/i;
+    const timeRe = /(\d+)[.:](\d+)\s*[–\-]\s*(\d+)[.:](\d+)/;
+    const hours = {};
+    let earliest = null, latest = null;
+    let m;
+    while ((m = blockRe.exec(html)) !== null) {
+      const pText = m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      const ulText = m[2].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      if (!liftTypeRe.test(pText)) continue;
+      const timeMatch = ulText.match(timeRe);
+      if (!timeMatch) continue;
+      const name = pText.replace(liftTypeRe, '').replace(/\s*\([\d,\-\s]+\).*/, '').trim().toUpperCase();
+      const oH = parseInt(timeMatch[1]), oM = parseInt(timeMatch[2]);
+      const cH = parseInt(timeMatch[3]), cM = parseInt(timeMatch[4]);
+      hours[name] = { open: `${oH}:${oM.toString().padStart(2,'0')}`, close: `${cH}:${cM.toString().padStart(2,'0')}` };
+      const oMins = oH * 60 + oM, cMins = cH * 60 + cM;
+      if (earliest === null || oMins < earliest) earliest = oMins;
+      if (latest === null || cMins > latest) latest = cMins;
+    }
+    const toTime = mins => `${Math.floor(mins/60)}:${(mins%60).toString().padStart(2,'0')}`;
+    return { hours, generalOpen: earliest !== null ? toTime(earliest) : null, generalClose: latest !== null ? toTime(latest) : null };
+  } catch (e) {
+    console.error(`  Schedule failed: ${e.message}`);
+    return { hours: {}, generalOpen: null, generalClose: null };
+  }
+}
+
+function matchLiftHours(liftName, hours) {
+  const name = liftName.toUpperCase().replace(/\s+/g, ' ');
+  if (hours[name]) return hours[name];
+  // Try key-contains or name-contains
+  for (const [key, val] of Object.entries(hours)) {
+    if (name === key || name.includes(key) || key.includes(name)) return val;
+  }
+  // Word overlap (≥2 meaningful words)
+  const nameWords = name.split(/[\s\-]+/).filter(w => w.length > 2);
+  let best = null, bestScore = 0;
+  for (const [key, val] of Object.entries(hours)) {
+    const keyWords = key.split(/[\s\-]+/).filter(w => w.length > 2);
+    const overlap = nameWords.filter(w => keyWords.includes(w)).length;
+    if (overlap > bestScore) { bestScore = overlap; best = val; }
+  }
+  return bestScore >= 2 ? best : null;
+}
+
 async function fetchSkiramaData(resort) {
   if (!resort.skiramaUrl) return { lifts: [], pistes: [] };
   try {
@@ -117,7 +168,7 @@ function generateHTML(allData, timestamp) {
 
   let resortCards = '';
 
-  for (const { resort, weather, lifts, skirama, avalanche } of allData) {
+  for (const { resort, weather, lifts, skirama, avalanche, schedule } of allData) {
     // Station rows - compact
     let stationRows = '';
     for (const station of ['top', 'mid', 'bottom']) {
@@ -147,9 +198,11 @@ function generateHTML(allData, timestamp) {
         s === 'evaluating' ? '<span class="badge eval">●</span>' :
         '<span class="badge closed">●</span>';
 
-      const liftRows = skirama.lifts.map(l =>
-        `<div class="detail-row">${statusBadge(l.status)}<span class="detail-name">${l.name}</span></div>`
-      ).join('');
+      const liftRows = skirama.lifts.map(l => {
+        const h = schedule ? matchLiftHours(l.name, schedule.hours) : null;
+        const timeStr = h ? `<span class="detail-time">${h.open}–${h.close}</span>` : '';
+        return `<div class="detail-row">${statusBadge(l.status)}<span class="detail-name">${l.name}</span>${timeStr}</div>`;
+      }).join('');
 
       const pisteRows = skirama.pistes.map(p =>
         `<div class="detail-row">${statusBadge(p.status)}<span class="detail-name">${p.name}</span></div>`
@@ -221,6 +274,16 @@ function generateHTML(allData, timestamp) {
         </div>`;
     }
 
+    // Resort operating hours
+    let hoursBar = '';
+    if (schedule && schedule.generalOpen && schedule.generalClose) {
+      hoursBar = `
+        <div class="hours-bar">
+          <span class="hours-icon">🕐</span>
+          <span class="hours-text">Lifts open <strong>${schedule.generalOpen}</strong> – <strong>${schedule.generalClose}</strong></span>
+        </div>`;
+    }
+
     resortCards += `
       <div class="card">
         <div class="card-header">
@@ -228,6 +291,7 @@ function generateHTML(allData, timestamp) {
           <span class="area">${resort.area}</span>
         </div>
         ${avalancheInfo}
+        ${hoursBar}
         ${snowForecastInfo}
         ${detailSections}
         ${snowInfo}
@@ -294,11 +358,18 @@ header h1::before{content:'🏔️ '}
 .stations-legend{display:grid;grid-template-columns:1fr 50px 28px 44px 50px;padding:4px 0 0;font-size:.55em;color:#3a4a5a;text-transform:uppercase;letter-spacing:.5px}
 .stations-legend span:nth-child(2),.stations-legend span:nth-child(4),.stations-legend span:nth-child(5){text-align:right}
 
-.avy-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#0d1a28;border-radius:8px;margin-bottom:12px;font-size:.82em}
+.avy-bar{display:flex;align-items:center;gap:8px;padding:8px 12px;background:#0d1a28;border-radius:8px;margin-bottom:8px;font-size:.82em}
 .avy-emoji{font-size:1.1em}
 .avy-level{flex:1}
 .avy-level strong{color:#e8f0f8}
 .avy-link{color:#4a6a8a;font-size:.9em;text-decoration:none}
+
+.hours-bar{display:flex;align-items:center;gap:8px;padding:7px 12px;background:#0d1a28;border-radius:8px;margin-bottom:12px;font-size:.82em;border-left:3px solid #2a6a8a}
+.hours-icon{font-size:1em}
+.hours-text{color:#8ab8d0}
+.hours-text strong{color:#b3e5fc}
+
+.detail-time{margin-left:auto;font-size:.8em;color:#5a8aaa;white-space:nowrap;font-variant-numeric:tabular-nums}
 
 footer{text-align:center;color:#2a3a4a;font-size:.6em;padding:8px 0}
 footer a{color:#3a6a8a}
@@ -380,8 +451,9 @@ async function main() {
     const weather = await fetchOpenMeteo(resort);
     const lifts = await fetchLiftPisteData(resort);
     const skirama = await fetchSkiramaData(resort);
-    console.log(`  Lifts: ${skirama.lifts.length}, Pistes: ${skirama.pistes.length}`);
-    allData.push({ resort, weather, lifts, skirama, avalanche });
+    const schedule = await fetchLiftSchedule(resort);
+    console.log(`  Lifts: ${skirama.lifts.length}, Pistes: ${skirama.pistes.length}, Schedule: ${Object.keys(schedule.hours).length} entries`);
+    allData.push({ resort, weather, lifts, skirama, avalanche, schedule });
   }
 
   const timestamp = new Date().toISOString();

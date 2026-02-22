@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-22T07:05:18.093Z",
+  "timestamp": "2026-02-22T07:47:55.865Z",
   "resorts": [
     {
       "resort": {
@@ -21,7 +21,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 3.226041793823242,
+          "generationtime_ms": 2.6235580444335938,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -38,15 +38,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-22T08:00",
+            "time": "2026-02-22T08:45",
             "interval": 900,
             "temperature_2m": -0.1,
-            "apparent_temperature": -4.3,
+            "apparent_temperature": -4,
             "snowfall": 0,
             "snow_depth": 1.66,
             "weather_code": 0,
-            "wind_speed_10m": 8.2,
-            "wind_gusts_10m": 15.8
+            "wind_speed_10m": 5,
+            "wind_gusts_10m": 11.9
           },
           "daily_units": {
             "time": "iso8601",
@@ -82,7 +82,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.29718875885009766,
+          "generationtime_ms": 0.3992319107055664,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -99,15 +99,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-22T08:00",
+            "time": "2026-02-22T08:45",
             "interval": 900,
-            "temperature_2m": -2.2,
-            "apparent_temperature": -6.8,
+            "temperature_2m": -1.7,
+            "apparent_temperature": -6.4,
             "snowfall": 0,
-            "snow_depth": 2.16,
-            "weather_code": 1,
-            "wind_speed_10m": 8.7,
-            "wind_gusts_10m": 13.7
+            "snow_depth": 2.17,
+            "weather_code": 0,
+            "wind_speed_10m": 8.4,
+            "wind_gusts_10m": 18
           },
           "daily_units": {
             "time": "iso8601",
@@ -143,7 +143,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.2529621124267578,
+          "generationtime_ms": 0.3631114959716797,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -160,15 +160,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-22T08:00",
+            "time": "2026-02-22T08:45",
             "interval": 900,
             "temperature_2m": -3,
-            "apparent_temperature": -8.6,
+            "apparent_temperature": -8.3,
             "snowfall": 0,
-            "snow_depth": 2.31,
+            "snow_depth": 2.3,
             "weather_code": 0,
-            "wind_speed_10m": 14.2,
-            "wind_gusts_10m": 51.1
+            "wind_speed_10m": 10.9,
+            "wind_gusts_10m": 33.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -272,11 +272,11 @@
           },
           {
             "name": "GABIET-PASSO DEI SALATI",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "PASSO DEI SALATI-INDREN",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "MOOS",
@@ -414,7 +414,7 @@
           },
           {
             "name": "SALATI",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "CASTORE",
@@ -426,7 +426,7 @@
           },
           {
             "name": "PASSO DEI SALATI",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA parte bassa",

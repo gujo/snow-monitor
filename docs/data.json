@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-23T15:30:23.850Z",
+  "timestamp": "2026-02-23T16:35:23.220Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3129243850708008,
+          "generationtime_ms": 0.5993843078613281,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-23T16:30",
+            "time": "2026-02-23T17:30",
             "interval": 900,
-            "temperature_2m": 8.3,
-            "apparent_temperature": 4.6,
+            "temperature_2m": 6.5,
+            "apparent_temperature": 2.8,
             "snowfall": 0,
-            "snow_depth": 1.57,
+            "snow_depth": 1.37,
             "weather_code": 1,
-            "wind_speed_10m": 6.6,
-            "wind_gusts_10m": 11.9
+            "wind_speed_10m": 7.1,
+            "wind_gusts_10m": 13.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3445148468017578,
+          "generationtime_ms": 0.23102760314941406,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-23T16:30",
+            "time": "2026-02-23T17:30",
             "interval": 900,
             "temperature_2m": 2.9,
-            "apparent_temperature": -1,
+            "apparent_temperature": -1.1,
             "snowfall": 0,
-            "snow_depth": 2.1,
+            "snow_depth": 2.09,
             "weather_code": 1,
-            "wind_speed_10m": 5.3,
-            "wind_gusts_10m": 10.1
+            "wind_speed_10m": 7,
+            "wind_gusts_10m": 13.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -137,14 +137,14 @@
               0,
               0,
               0,
-              2.73
+              7.98
             ]
           }
         },
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.24259090423583984,
+          "generationtime_ms": 0.48470497131347656,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-23T16:30",
+            "time": "2026-02-23T17:30",
             "interval": 900,
-            "temperature_2m": -0.3,
-            "apparent_temperature": -6.3,
+            "temperature_2m": -0.8,
+            "apparent_temperature": -6.5,
             "snowfall": 0,
-            "snow_depth": 1.79,
-            "weather_code": 1,
-            "wind_speed_10m": 19.8,
-            "wind_gusts_10m": 52.9
+            "snow_depth": 1.77,
+            "weather_code": 2,
+            "wind_speed_10m": 18.1,
+            "wind_gusts_10m": 42.1
           },
           "daily_units": {
             "time": "iso8601",
@@ -198,7 +198,7 @@
               0,
               0,
               0,
-              2.73
+              7.98
             ]
           }
         }
@@ -297,7 +297,7 @@
           },
           {
             "name": "WOLD 2",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "TAPIS ROULANT WOLD",
@@ -339,7 +339,7 @@
           },
           {
             "name": "OSTAFA 2",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "OSTAFA 1",
@@ -403,7 +403,7 @@
           },
           {
             "name": "JOLANDA 1",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "ALPE RICKA",
@@ -455,11 +455,11 @@
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           }
         ]
       },
@@ -468,8 +468,8 @@
         "label": "High",
         "color": "#F44336",
         "emoji": "🔴",
-        "validFrom": "2026-02-22T16:00:00Z",
-        "validTo": "2026-02-23T16:00:00Z",
+        "validFrom": "2026-02-23T16:00:00Z",
+        "validTo": "2026-02-24T16:00:00Z",
         "source": "EUREGIO (Tyrol-Trentino)",
         "url": "https://avalanche.report"
       },

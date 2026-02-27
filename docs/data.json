@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-27T20:19:27.183Z",
+  "timestamp": "2026-02-27T20:49:52.089Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.32913684844970703,
+          "generationtime_ms": 1.5990734100341797,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-27T21:15",
+            "time": "2026-02-27T21:45",
             "interval": 900,
             "temperature_2m": 3.2,
-            "apparent_temperature": 0.2,
+            "apparent_temperature": 0.1,
             "snowfall": 0,
             "snow_depth": 1.36,
             "weather_code": 0,
-            "wind_speed_10m": 3.8,
-            "wind_gusts_10m": 5.8
+            "wind_speed_10m": 4.2,
+            "wind_gusts_10m": 6.1
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3744363784790039,
+          "generationtime_ms": 0.47409534454345703,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-27T21:15",
+            "time": "2026-02-27T21:45",
             "interval": 900,
-            "temperature_2m": 1.6,
-            "apparent_temperature": -1.8,
+            "temperature_2m": 1.4,
+            "apparent_temperature": -2.1,
             "snowfall": 0,
             "snow_depth": 1.88,
             "weather_code": 0,
-            "wind_speed_10m": 3,
-            "wind_gusts_10m": 6.1
+            "wind_speed_10m": 3.3,
+            "wind_gusts_10m": 4.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.3336668014526367,
+          "generationtime_ms": 0.3559589385986328,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-02-27T21:15",
+            "time": "2026-02-27T21:45",
             "interval": 900,
-            "temperature_2m": -1.2,
-            "apparent_temperature": -5.1,
+            "temperature_2m": -1.5,
+            "apparent_temperature": -5.6,
             "snowfall": 0,
             "snow_depth": 2.03,
             "weather_code": 0,
-            "wind_speed_10m": 5.5,
-            "wind_gusts_10m": 18.7
+            "wind_speed_10m": 6.8,
+            "wind_gusts_10m": 20.2
           },
           "daily_units": {
             "time": "iso8601",

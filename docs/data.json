@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-01T12:28:48.060Z",
+  "timestamp": "2026-03-01T13:22:23.977Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3688335418701172,
+          "generationtime_ms": 0.2332925796508789,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-01T13:15",
+            "time": "2026-03-01T14:15",
             "interval": 900,
-            "temperature_2m": 4.2,
-            "apparent_temperature": 1.6,
+            "temperature_2m": 4.5,
+            "apparent_temperature": 1.9,
             "snowfall": 0,
-            "snow_depth": 1.31,
+            "snow_depth": 1.3,
             "weather_code": 2,
-            "wind_speed_10m": 2.9,
-            "wind_gusts_10m": 9.7
+            "wind_speed_10m": 2.7,
+            "wind_gusts_10m": 8.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.2541542053222656,
+          "generationtime_ms": 0.21588802337646484,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-01T13:15",
+            "time": "2026-03-01T14:15",
             "interval": 900,
-            "temperature_2m": -0.2,
-            "apparent_temperature": -3.5,
+            "temperature_2m": 0.8,
+            "apparent_temperature": -2.5,
             "snowfall": 0,
-            "snow_depth": 1.88,
+            "snow_depth": 1.87,
             "weather_code": 2,
-            "wind_speed_10m": 3.4,
-            "wind_gusts_10m": 7.2
+            "wind_speed_10m": 4,
+            "wind_gusts_10m": 9.4
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.2868175506591797,
+          "generationtime_ms": 0.5255937576293945,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-01T13:15",
+            "time": "2026-03-01T14:15",
             "interval": 900,
-            "temperature_2m": -4.9,
-            "apparent_temperature": -8.8,
+            "temperature_2m": -4.2,
+            "apparent_temperature": -8.3,
             "snowfall": 0,
             "snow_depth": 2.02,
-            "weather_code": 48,
-            "wind_speed_10m": 7.4,
-            "wind_gusts_10m": 18.7
+            "weather_code": 3,
+            "wind_speed_10m": 8.6,
+            "wind_gusts_10m": 19.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -455,11 +455,11 @@
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "evaluating"
+            "status": "open"
           }
         ]
       },

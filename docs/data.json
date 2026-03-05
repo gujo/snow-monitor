@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-05T07:53:05.067Z",
+  "timestamp": "2026-03-05T08:30:13.491Z",
   "resorts": [
     {
       "resort": {
@@ -19,132 +19,12 @@
         "liftScheduleUrl": "https://monterosaski.eu/en/schedules-monterosa-ski-area-19384"
       },
       "weather": {
-        "bottom": {
-          "latitude": 45.84,
-          "longitude": 7.7399993,
-          "generationtime_ms": 0.5303621292114258,
-          "utc_offset_seconds": 3600,
-          "timezone": "Europe/Rome",
-          "timezone_abbreviation": "GMT+1",
-          "elevation": 1568,
-          "current_units": {
-            "time": "iso8601",
-            "interval": "seconds",
-            "temperature_2m": "°C",
-            "apparent_temperature": "°C",
-            "snowfall": "cm",
-            "snow_depth": "m",
-            "weather_code": "wmo code",
-            "wind_speed_10m": "km/h",
-            "wind_gusts_10m": "km/h"
-          },
-          "current": {
-            "time": "2026-03-05T08:45",
-            "interval": 900,
-            "temperature_2m": 1.2,
-            "apparent_temperature": -2.4,
-            "snowfall": 0,
-            "snow_depth": 1.28,
-            "weather_code": 3,
-            "wind_speed_10m": 2.8,
-            "wind_gusts_10m": 6.1
-          },
-          "daily_units": {
-            "time": "iso8601",
-            "snowfall_sum": "cm"
-          },
-          "daily": {
-            "time": [
-              "2026-03-02",
-              "2026-03-03",
-              "2026-03-04",
-              "2026-03-05",
-              "2026-03-06",
-              "2026-03-07",
-              "2026-03-08",
-              "2026-03-09",
-              "2026-03-10",
-              "2026-03-11"
-            ],
-            "snowfall_sum": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "mid": {
-          "latitude": 45.86,
-          "longitude": 7.7399993,
-          "generationtime_ms": 0.5977153778076172,
-          "utc_offset_seconds": 3600,
-          "timezone": "Europe/Rome",
-          "timezone_abbreviation": "GMT+1",
-          "elevation": 2146,
-          "current_units": {
-            "time": "iso8601",
-            "interval": "seconds",
-            "temperature_2m": "°C",
-            "apparent_temperature": "°C",
-            "snowfall": "cm",
-            "snow_depth": "m",
-            "weather_code": "wmo code",
-            "wind_speed_10m": "km/h",
-            "wind_gusts_10m": "km/h"
-          },
-          "current": {
-            "time": "2026-03-05T08:45",
-            "interval": 900,
-            "temperature_2m": -1.3,
-            "apparent_temperature": -5.2,
-            "snowfall": 0,
-            "snow_depth": 1.79,
-            "weather_code": 3,
-            "wind_speed_10m": 3,
-            "wind_gusts_10m": 7.2
-          },
-          "daily_units": {
-            "time": "iso8601",
-            "snowfall_sum": "cm"
-          },
-          "daily": {
-            "time": [
-              "2026-03-02",
-              "2026-03-03",
-              "2026-03-04",
-              "2026-03-05",
-              "2026-03-06",
-              "2026-03-07",
-              "2026-03-08",
-              "2026-03-09",
-              "2026-03-10",
-              "2026-03-11"
-            ],
-            "snowfall_sum": [
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0,
-              0.35,
-              0
-            ]
-          }
-        },
+        "bottom": null,
+        "mid": null,
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.7224082946777344,
+          "generationtime_ms": 805.4777383804321,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +41,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-05T08:45",
+            "time": "2026-03-05T09:30",
             "interval": 900,
-            "temperature_2m": -4.8,
+            "temperature_2m": -4.9,
             "apparent_temperature": -8.8,
             "snowfall": 0,
             "snow_depth": 1.95,
             "weather_code": 3,
-            "wind_speed_10m": 3.2,
-            "wind_gusts_10m": 11.9
+            "wind_speed_10m": 2.6,
+            "wind_gusts_10m": 12.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -206,7 +86,7 @@
       "lifts": {
         "liftsOpen": 10,
         "liftsTotal": 10,
-        "runsOpen": 16,
+        "runsOpen": 17,
         "runsTotal": 18,
         "kmOpen": 23,
         "baseDepth": 60,

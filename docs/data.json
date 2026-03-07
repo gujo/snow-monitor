@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-07T11:33:25.173Z",
+  "timestamp": "2026-03-07T11:40:20.862Z",
   "resorts": [
     {
       "resort": {
@@ -19,11 +19,71 @@
         "liftScheduleUrl": "https://monterosaski.eu/en/schedules-monterosa-ski-area-19384"
       },
       "weather": {
-        "bottom": null,
+        "bottom": {
+          "latitude": 45.84,
+          "longitude": 7.7399993,
+          "generationtime_ms": 0.4794597625732422,
+          "utc_offset_seconds": 3600,
+          "timezone": "Europe/Rome",
+          "timezone_abbreviation": "GMT+1",
+          "elevation": 1568,
+          "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "apparent_temperature": "°C",
+            "snowfall": "cm",
+            "snow_depth": "m",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_gusts_10m": "km/h"
+          },
+          "current": {
+            "time": "2026-03-07T12:30",
+            "interval": 900,
+            "temperature_2m": 7,
+            "apparent_temperature": 5.1,
+            "snowfall": 0,
+            "snow_depth": 1.19,
+            "weather_code": 0,
+            "wind_speed_10m": 3.1,
+            "wind_gusts_10m": 9
+          },
+          "daily_units": {
+            "time": "iso8601",
+            "snowfall_sum": "cm"
+          },
+          "daily": {
+            "time": [
+              "2026-03-04",
+              "2026-03-05",
+              "2026-03-06",
+              "2026-03-07",
+              "2026-03-08",
+              "2026-03-09",
+              "2026-03-10",
+              "2026-03-11",
+              "2026-03-12",
+              "2026-03-13"
+            ],
+            "snowfall_sum": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        },
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.9895563125610352,
+          "generationtime_ms": 0.3559589385986328,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -84,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.23472309112548828,
+          "generationtime_ms": 1.3793706893920898,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",

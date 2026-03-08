@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-08T09:20:40.416Z",
+  "timestamp": "2026-03-08T09:50:11.019Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.5446672439575195,
+          "generationtime_ms": 1509.6153020858765,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-08T10:15",
+            "time": "2026-03-08T10:45",
             "interval": 900,
-            "temperature_2m": 1.8,
-            "apparent_temperature": -1.2,
+            "temperature_2m": 2.1,
+            "apparent_temperature": -0.5,
             "snowfall": 0,
             "snow_depth": 1.21,
             "weather_code": 0,
-            "wind_speed_10m": 1.1,
-            "wind_gusts_10m": 2.9
+            "wind_speed_10m": 1,
+            "wind_gusts_10m": 1.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -73,8 +73,8 @@
               0,
               0,
               0.42,
-              0,
-              0,
+              0.21,
+              0.63,
               0,
               0
             ]
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4500150680541992,
+          "generationtime_ms": 444.4493055343628,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-08T10:15",
+            "time": "2026-03-08T10:45",
             "interval": 900,
-            "temperature_2m": -1.9,
-            "apparent_temperature": -5.4,
+            "temperature_2m": -2.1,
+            "apparent_temperature": -5.3,
             "snowfall": 0,
             "snow_depth": 1.75,
             "weather_code": 0,
-            "wind_speed_10m": 0.8,
-            "wind_gusts_10m": 1.4
+            "wind_speed_10m": 1.3,
+            "wind_gusts_10m": 1.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -133,9 +133,9 @@
               0,
               0,
               0,
-              0.91,
-              0,
-              0,
+              0.84,
+              0.49,
+              1.05,
               0,
               0.21
             ]
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.42366981506347656,
+          "generationtime_ms": 387.19677925109863,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-08T10:15",
+            "time": "2026-03-08T10:45",
             "interval": 900,
-            "temperature_2m": -4.8,
-            "apparent_temperature": -8.7,
+            "temperature_2m": -4.7,
+            "apparent_temperature": -8.3,
             "snowfall": 0,
             "snow_depth": 1.91,
             "weather_code": 0,
-            "wind_speed_10m": 3.6,
-            "wind_gusts_10m": 12.6
+            "wind_speed_10m": 4.3,
+            "wind_gusts_10m": 12.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -194,9 +194,9 @@
               0,
               0,
               0,
-              0.91,
-              0,
-              0,
+              0.84,
+              0.28,
+              0.84,
               0,
               0.21
             ]
@@ -435,7 +435,7 @@
           },
           {
             "name": "ALAGNA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "MULLERO",

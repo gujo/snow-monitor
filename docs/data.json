@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-11T15:03:38.987Z",
+  "timestamp": "2026-03-11T16:00:44.351Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.2415180206298828,
+          "generationtime_ms": 1.1992454528808594,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-11T16:00",
+            "time": "2026-03-11T17:00",
             "interval": 900,
-            "temperature_2m": 4.3,
-            "apparent_temperature": 0.8,
+            "temperature_2m": 3.7,
+            "apparent_temperature": 0.3,
             "snowfall": 0,
             "snow_depth": 1.23,
             "weather_code": 3,
-            "wind_speed_10m": 7,
-            "wind_gusts_10m": 13.3
+            "wind_speed_10m": 7.4,
+            "wind_gusts_10m": 14.4
           },
           "daily_units": {
             "time": "iso8601",
@@ -73,9 +73,9 @@
               0,
               0,
               0,
-              31.64,
-              3.15,
-              0,
+              63.98,
+              20.09,
+              0.21,
               0
             ]
           }
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.39136409759521484,
+          "generationtime_ms": 0.2334117889404297,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-11T16:00",
+            "time": "2026-03-11T17:00",
             "interval": 900,
-            "temperature_2m": 0.5,
-            "apparent_temperature": -3.3,
+            "temperature_2m": 0,
+            "apparent_temperature": -3.8,
             "snowfall": 0,
             "snow_depth": 1.46,
             "weather_code": 3,
-            "wind_speed_10m": 6.1,
-            "wind_gusts_10m": 11.5
+            "wind_speed_10m": 7,
+            "wind_gusts_10m": 13
           },
           "daily_units": {
             "time": "iso8601",
@@ -134,9 +134,9 @@
               0,
               0,
               0,
-              24.85,
-              2.87,
-              2.2,
+              54.74,
+              15.89,
+              0.77,
               0
             ]
           }
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.28586387634277344,
+          "generationtime_ms": 0.5517005920410156,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-11T16:00",
+            "time": "2026-03-11T17:00",
             "interval": 900,
-            "temperature_2m": -4.2,
-            "apparent_temperature": -9.7,
+            "temperature_2m": -4.4,
+            "apparent_temperature": -10,
             "snowfall": 0,
             "snow_depth": 1.89,
             "weather_code": 3,
-            "wind_speed_10m": 17.7,
-            "wind_gusts_10m": 44.3
+            "wind_speed_10m": 18.7,
+            "wind_gusts_10m": 44.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -195,9 +195,9 @@
               0,
               0,
               0,
-              20.02,
-              1.61,
-              2.31,
+              45.43,
+              12.11,
+              1.19,
               0
             ]
           }
@@ -403,7 +403,7 @@
           },
           {
             "name": "JOLANDA 1",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "ALPE RICKA",
@@ -419,7 +419,7 @@
           },
           {
             "name": "CASTORE",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "COLLE BETTA",

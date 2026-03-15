@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-15T15:20:23.655Z",
+  "timestamp": "2026-03-15T15:49:55.052Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.35202503204345703,
+          "generationtime_ms": 1.0402202606201172,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-15T16:15",
+            "time": "2026-03-15T16:45",
             "interval": 900,
-            "temperature_2m": 3.8,
-            "apparent_temperature": 0.6,
+            "temperature_2m": 3.5,
+            "apparent_temperature": 0.3,
             "snowfall": 0,
             "snow_depth": 1.25,
             "weather_code": 3,
-            "wind_speed_10m": 5.4,
-            "wind_gusts_10m": 11.2
+            "wind_speed_10m": 5.1,
+            "wind_gusts_10m": 11.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -73,17 +73,17 @@
               19.74,
               0,
               0,
-              0.21,
+              0.49,
               0,
               0,
-              19.04
+              16.1
             ]
           }
         },
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.29861927032470703,
+          "generationtime_ms": 0.4698038101196289,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-15T16:15",
+            "time": "2026-03-15T16:45",
             "interval": 900,
-            "temperature_2m": -0.7,
-            "apparent_temperature": -3.9,
+            "temperature_2m": -0.8,
+            "apparent_temperature": -4.1,
             "snowfall": 0,
             "snow_depth": 1.66,
             "weather_code": 85,
-            "wind_speed_10m": 2.9,
-            "wind_gusts_10m": 6.1
+            "wind_speed_10m": 3.9,
+            "wind_gusts_10m": 7.9
           },
           "daily_units": {
             "time": "iso8601",
@@ -134,17 +134,17 @@
               18.83,
               0,
               0,
+              0.28,
               0,
-              0,
-              8.89,
-              19.25
+              1.05,
+              15.47
             ]
           }
         },
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.3255605697631836,
+          "generationtime_ms": 0.5995035171508789,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-15T16:15",
+            "time": "2026-03-15T16:45",
             "interval": 900,
-            "temperature_2m": -4.6,
-            "apparent_temperature": -8.2,
+            "temperature_2m": -4.5,
+            "apparent_temperature": -8,
             "snowfall": 0,
             "snow_depth": 2.37,
             "weather_code": 85,
-            "wind_speed_10m": 4.3,
-            "wind_gusts_10m": 21.2
+            "wind_speed_10m": 3.7,
+            "wind_gusts_10m": 20.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -197,8 +197,8 @@
               0,
               0,
               0,
-              8.89,
-              19.25
+              1.05,
+              15.47
             ]
           }
         }
@@ -217,11 +217,11 @@
         "lifts": [
           {
             "name": "CREST-ALPE OSTAFA III",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "ALPE OSTAFA-COLLE SAREZZA II",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "LAGO CIARCERIO-ALPE BELVEDERE",
@@ -249,51 +249,51 @@
           },
           {
             "name": "SANTANNA-BETTAFORCA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "STAFAL-SANTANNA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "STAFAL-GABIET",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "GABIET-LAGO",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "BEDEMIE-SEEHORN",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "PUNTA JOLANDA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "GABIET-PASSO DEI SALATI",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "PASSO DEI SALATI-INDREN",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "MOOS",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "PIANALUNGA-CIMALEGNA-SALAT",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "ALAGNA-PIANALUNGA",
-            "status": "closed"
+            "status": "open"
           },
           {
             "name": "PIANALUNGA-BOCCHETTA",
-            "status": "closed"
+            "status": "open"
           },
           {
             "name": "WOLD 2",
@@ -305,7 +305,7 @@
           },
           {
             "name": "TAPIS ROULANT PIANALUNGA",
-            "status": "closed"
+            "status": "open"
           },
           {
             "name": "CIMALEGNA-SALATI",
@@ -339,15 +339,15 @@
           },
           {
             "name": "OSTAFA 2",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "OSTAFA 1",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "SAREZZA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "SAREZZA-CONTENERY",
@@ -371,75 +371,75 @@
           },
           {
             "name": "PISTONE BETTA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "NERA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "DIRETTA STAFAL",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "CHAMOIS",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "COLLEGAMENTO GABIET",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "COLLEGAMENTO RICKA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "SEEHORN",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA parte alta",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA 1",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "ALPE RICKA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "MOOS",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "SALATI",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "CASTORE",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "COLLE BETTA",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "PASSO DEI SALATI",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA parte bassa",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "ALAGNA",
-            "status": "closed"
+            "status": "open"
           },
           {
             "name": "MULLERO",
-            "status": "closed"
+            "status": "open"
           },
           {
             "name": "OLEN",
@@ -455,11 +455,11 @@
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           }
         ]
       },

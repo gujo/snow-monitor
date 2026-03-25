@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T22:02:37.099Z",
+  "timestamp": "2026-03-25T22:55:02.664Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.41413307189941406,
+          "generationtime_ms": 0.5685091018676758,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T23:00",
+            "time": "2026-03-25T23:45",
             "interval": 900,
-            "temperature_2m": -2.6,
-            "apparent_temperature": -10.5,
+            "temperature_2m": -3,
+            "apparent_temperature": -10,
             "snowfall": 0,
-            "snow_depth": 1.29,
+            "snow_depth": 1.3,
             "weather_code": 85,
-            "wind_speed_10m": 30.7,
-            "wind_gusts_10m": 55.4
+            "wind_speed_10m": 24.4,
+            "wind_gusts_10m": 50.4
           },
           "daily_units": {
             "time": "iso8601",
@@ -70,11 +70,11 @@
               6.16,
               0,
               0,
-              0.56,
-              1.12,
+              0.42,
+              0.63,
               0,
               0,
-              0.84,
+              0,
               0,
               0
             ]
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.29337406158447266,
+          "generationtime_ms": 0.7455348968505859,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T23:00",
+            "time": "2026-03-25T23:45",
             "interval": 900,
-            "temperature_2m": -6.7,
-            "apparent_temperature": -16.6,
+            "temperature_2m": -7.2,
+            "apparent_temperature": -16.2,
             "snowfall": 0,
-            "snow_depth": 1.89,
+            "snow_depth": 1.9,
             "weather_code": 85,
-            "wind_speed_10m": 42.8,
-            "wind_gusts_10m": 76.7
+            "wind_speed_10m": 37.1,
+            "wind_gusts_10m": 77
           },
           "daily_units": {
             "time": "iso8601",
@@ -131,12 +131,12 @@
               6.44,
               0,
               0,
-              1.89,
-              2.8,
+              1.68,
+              2.38,
               0,
-              0,
-              0.63,
-              0.54,
+              0.07,
+              0.56,
+              0.21,
               2.31
             ]
           }
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.3333091735839844,
+          "generationtime_ms": 0.3477334976196289,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T23:00",
+            "time": "2026-03-25T23:45",
             "interval": 900,
-            "temperature_2m": -11.6,
-            "apparent_temperature": -22.7,
+            "temperature_2m": -12,
+            "apparent_temperature": -22.8,
             "snowfall": 0,
-            "snow_depth": 2.09,
+            "snow_depth": 2.1,
             "weather_code": 85,
-            "wind_speed_10m": 51.2,
-            "wind_gusts_10m": 91.4
+            "wind_speed_10m": 48.9,
+            "wind_gusts_10m": 88.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -192,12 +192,12 @@
               13.16,
               0,
               0,
-              0.56,
-              0.28,
+              0.35,
               0,
               0,
+              0.14,
               0.42,
-              1.37,
+              0.84,
               7
             ]
           }

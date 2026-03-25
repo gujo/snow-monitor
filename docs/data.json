@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T15:19:55.254Z",
+  "timestamp": "2026-03-25T16:40:17.699Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4934072494506836,
+          "generationtime_ms": 354.81834411621094,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T16:15",
+            "time": "2026-03-25T17:30",
             "interval": 900,
-            "temperature_2m": 4.9,
-            "apparent_temperature": 0.3,
+            "temperature_2m": 2.7,
+            "apparent_temperature": -1.7,
             "snowfall": 0,
-            "snow_depth": 1.2,
-            "weather_code": 1,
-            "wind_speed_10m": 14.1,
-            "wind_gusts_10m": 38.9
+            "snow_depth": 1.18,
+            "weather_code": 3,
+            "wind_speed_10m": 12.8,
+            "wind_gusts_10m": 34.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -70,20 +70,20 @@
               6.16,
               0,
               0,
-              1.47,
-              1.54,
+              1.12,
+              1.4,
               0,
               0,
-              1.05,
-              0.63,
-              2.24
+              0.84,
+              0,
+              0
             ]
           }
         },
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.2429485321044922,
+          "generationtime_ms": 162.3556613922119,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T16:15",
+            "time": "2026-03-25T17:30",
             "interval": 900,
-            "temperature_2m": 0.8,
-            "apparent_temperature": -3.8,
+            "temperature_2m": -0.7,
+            "apparent_temperature": -5.7,
             "snowfall": 0,
-            "snow_depth": 1.73,
-            "weather_code": 2,
-            "wind_speed_10m": 11.2,
-            "wind_gusts_10m": 31
+            "snow_depth": 1.64,
+            "weather_code": 3,
+            "wind_speed_10m": 12.9,
+            "wind_gusts_10m": 35.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -131,20 +131,20 @@
               6.44,
               0,
               0,
-              2.8,
-              3.43,
+              2.17,
+              2.73,
               0,
-              0.07,
-              0.98,
-              5.64,
-              9.45
+              0,
+              0.63,
+              1.58,
+              2.31
             ]
           }
         },
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.3857612609863281,
+          "generationtime_ms": 161.07714176177979,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T16:15",
+            "time": "2026-03-25T17:30",
             "interval": 900,
-            "temperature_2m": -4.2,
-            "apparent_temperature": -13.7,
-            "snowfall": 0,
-            "snow_depth": 2.05,
-            "weather_code": 2,
-            "wind_speed_10m": 44.4,
-            "wind_gusts_10m": 104
+            "temperature_2m": -6,
+            "apparent_temperature": -14.1,
+            "snowfall": 0.07,
+            "snow_depth": 2.04,
+            "weather_code": 85,
+            "wind_speed_10m": 35.7,
+            "wind_gusts_10m": 86.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -192,13 +192,13 @@
               13.16,
               0,
               0,
-              1.19,
-              0.56,
+              1.05,
+              0.28,
               0,
-              0.07,
-              0.77,
-              5.74,
-              9.45
+              0,
+              0.42,
+              2.2,
+              7
             ]
           }
         }
@@ -229,7 +229,7 @@
           },
           {
             "name": "FRACHEY-ALPE CIARCERIO",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "ALPE MANDRIA",
@@ -241,11 +241,11 @@
           },
           {
             "name": "CHAMPOLUC-CREST",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "FONTANEY 1",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "SANTANNA-BETTAFORCA",
@@ -253,19 +253,19 @@
           },
           {
             "name": "STAFAL-SANTANNA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "STAFAL-GABIET",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "GABIET-LAGO",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "BEDEMIE-SEEHORN",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "PUNTA JOLANDA",
@@ -281,19 +281,19 @@
           },
           {
             "name": "MOOS",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "PIANALUNGA-CIMALEGNA-SALAT",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "ALAGNA-PIANALUNGA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "PIANALUNGA-BOCCHETTA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "WOLD 2",
@@ -305,17 +305,17 @@
           },
           {
             "name": "TAPIS ROULANT PIANALUNGA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "CIMALEGNA-SALATI",
-            "status": "closed"
+            "status": "evaluating"
           }
         ],
         "pistes": [
           {
             "name": "DEL BOSCO",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "DEL LAGO",
@@ -379,23 +379,23 @@
           },
           {
             "name": "DIRETTA STAFAL",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "CHAMOIS",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "COLLEGAMENTO GABIET",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "COLLEGAMENTO RICKA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "SEEHORN",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "JOLANDA parte alta",
@@ -407,11 +407,11 @@
           },
           {
             "name": "ALPE RICKA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "MOOS",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "SALATI",
@@ -419,7 +419,7 @@
           },
           {
             "name": "CASTORE",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "COLLE BETTA",
@@ -439,37 +439,37 @@
           },
           {
             "name": "MULLERO",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "OLEN",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "CIMALEGNA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "BODWITCH",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "closed"
+            "status": "evaluating"
           }
         ]
       },
       "avalanche": {
-        "level": 2,
-        "label": "Moderate",
-        "color": "#FFEB3B",
-        "emoji": "🟡",
-        "validFrom": "2026-03-24T16:00:00Z",
-        "validTo": "2026-03-25T16:00:00Z",
+        "level": 4,
+        "label": "High",
+        "color": "#F44336",
+        "emoji": "🔴",
+        "validFrom": "2026-03-25T16:00:00Z",
+        "validTo": "2026-03-26T16:00:00Z",
         "source": "EUREGIO (Tyrol-Trentino)",
         "url": "https://avalanche.report"
       },

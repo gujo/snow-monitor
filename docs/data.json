@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T12:44:59.363Z",
+  "timestamp": "2026-03-25T14:05:03.982Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.8128881454467773,
+          "generationtime_ms": 6.579160690307617,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T13:30",
+            "time": "2026-03-25T15:00",
             "interval": 900,
-            "temperature_2m": 8.2,
-            "apparent_temperature": 4.2,
+            "temperature_2m": 6.3,
+            "apparent_temperature": 0.4,
             "snowfall": 0,
-            "snow_depth": 1.22,
+            "snow_depth": 1.2,
             "weather_code": 1,
-            "wind_speed_10m": 13,
-            "wind_gusts_10m": 24.1
+            "wind_speed_10m": 22.6,
+            "wind_gusts_10m": 44.3
           },
           "daily_units": {
             "time": "iso8601",
@@ -70,8 +70,8 @@
               6.16,
               0,
               0,
-              0.98,
-              0.98,
+              1.47,
+              1.54,
               0,
               0,
               1.05,
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.28133392333984375,
+          "generationtime_ms": 16.649365425109863,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T13:30",
+            "time": "2026-03-25T15:00",
             "interval": 900,
-            "temperature_2m": 3.6,
-            "apparent_temperature": 0.5,
+            "temperature_2m": 2.2,
+            "apparent_temperature": -3.4,
             "snowfall": 0,
-            "snow_depth": 1.89,
-            "weather_code": 1,
-            "wind_speed_10m": 7.2,
-            "wind_gusts_10m": 17.3
+            "snow_depth": 1.73,
+            "weather_code": 2,
+            "wind_speed_10m": 19.6,
+            "wind_gusts_10m": 36
           },
           "daily_units": {
             "time": "iso8601",
@@ -131,8 +131,8 @@
               6.44,
               0,
               0,
-              2.66,
-              3.64,
+              2.8,
+              3.43,
               0,
               0.07,
               0.98,
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 3.4502744674682617,
+          "generationtime_ms": 106.92965984344482,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-25T13:30",
+            "time": "2026-03-25T15:00",
             "interval": 900,
-            "temperature_2m": -1.9,
-            "apparent_temperature": -10.2,
+            "temperature_2m": -3.1,
+            "apparent_temperature": -14.2,
             "snowfall": 0,
-            "snow_depth": 2.07,
+            "snow_depth": 2.06,
             "weather_code": 1,
-            "wind_speed_10m": 38.5,
-            "wind_gusts_10m": 73.8
+            "wind_speed_10m": 55.5,
+            "wind_gusts_10m": 102.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -192,7 +192,7 @@
               13.16,
               0,
               0,
-              0.84,
+              1.19,
               0.56,
               0,
               0.07,
@@ -249,7 +249,7 @@
           },
           {
             "name": "SANTANNA-BETTAFORCA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "STAFAL-SANTANNA",
@@ -309,7 +309,7 @@
           },
           {
             "name": "CIMALEGNA-SALATI",
-            "status": "open"
+            "status": "closed"
           }
         ],
         "pistes": [
@@ -371,11 +371,11 @@
           },
           {
             "name": "PISTONE BETTA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "NERA",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "DIRETTA STAFAL",
@@ -455,11 +455,11 @@
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "evaluating"
+            "status": "closed"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "evaluating"
+            "status": "closed"
           }
         ]
       },

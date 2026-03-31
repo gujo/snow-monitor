@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T11:32:51.180Z",
+  "timestamp": "2026-03-31T12:38:44.605Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3656148910522461,
+          "generationtime_ms": 0.5768537521362305,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T13:30",
+            "time": "2026-03-31T14:30",
             "interval": 900,
-            "temperature_2m": -0.8,
-            "apparent_temperature": -5,
+            "temperature_2m": -0.2,
+            "apparent_temperature": -4.9,
             "snowfall": 0,
             "snow_depth": 1.55,
             "weather_code": 0,
-            "wind_speed_10m": 16,
-            "wind_gusts_10m": 30.2
+            "wind_speed_10m": 18.6,
+            "wind_gusts_10m": 35.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.4534721374511719,
+          "generationtime_ms": 0.4285573959350586,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T13:30",
+            "time": "2026-03-31T14:30",
             "interval": 900,
-            "temperature_2m": -6.2,
-            "apparent_temperature": -12.6,
+            "temperature_2m": -6,
+            "apparent_temperature": -12.4,
             "snowfall": 0,
             "snow_depth": 2.39,
             "weather_code": 0,
-            "wind_speed_10m": 28.7,
-            "wind_gusts_10m": 50
+            "wind_speed_10m": 28.3,
+            "wind_gusts_10m": 49.7
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.24330615997314453,
+          "generationtime_ms": 0.40078163146972656,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T13:30",
+            "time": "2026-03-31T14:30",
             "interval": 900,
-            "temperature_2m": -10.8,
-            "apparent_temperature": -13.1,
+            "temperature_2m": -9.7,
+            "apparent_temperature": -12.3,
             "snowfall": 0,
             "snow_depth": 2.42,
             "weather_code": 0,
-            "wind_speed_10m": 5.6,
-            "wind_gusts_10m": 25.2
+            "wind_speed_10m": 6.3,
+            "wind_gusts_10m": 22.3
           },
           "daily_units": {
             "time": "iso8601",
@@ -233,7 +233,7 @@
           },
           {
             "name": "ALPE MANDRIA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "BETTAFORCA",
@@ -319,15 +319,15 @@
           },
           {
             "name": "DEL LAGO",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "DEL MONTE",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "LIAISON",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "DEL COLLE",

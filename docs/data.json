@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T07:02:27.256Z",
+  "timestamp": "2026-03-31T08:15:06.739Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.44035911560058594,
+          "generationtime_ms": 1.9844770431518555,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,14 +39,14 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T09:00",
+            "time": "2026-03-31T10:15",
             "interval": 900,
-            "temperature_2m": -3.9,
-            "apparent_temperature": -10,
+            "temperature_2m": -3,
+            "apparent_temperature": -9.1,
             "snowfall": 0,
-            "snow_depth": 1.59,
+            "snow_depth": 1.55,
             "weather_code": 0,
-            "wind_speed_10m": 17.8,
+            "wind_speed_10m": 16.6,
             "wind_gusts_10m": 32.4
           },
           "daily_units": {
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.2961158752441406,
+          "generationtime_ms": 1.4472007751464844,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T09:00",
+            "time": "2026-03-31T10:15",
             "interval": 900,
-            "temperature_2m": -8.6,
-            "apparent_temperature": -17.5,
+            "temperature_2m": -7.8,
+            "apparent_temperature": -15.8,
             "snowfall": 0,
-            "snow_depth": 2.29,
+            "snow_depth": 2.38,
             "weather_code": 0,
-            "wind_speed_10m": 36.2,
-            "wind_gusts_10m": 63.4
+            "wind_speed_10m": 29.2,
+            "wind_gusts_10m": 52.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.23055076599121094,
+          "generationtime_ms": 0.9205341339111328,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-03-31T09:00",
+            "time": "2026-03-31T10:15",
             "interval": 900,
-            "temperature_2m": -11.6,
-            "apparent_temperature": -18.4,
+            "temperature_2m": -12.5,
+            "apparent_temperature": -16.7,
             "snowfall": 0,
-            "snow_depth": 2.34,
+            "snow_depth": 2.41,
             "weather_code": 0,
-            "wind_speed_10m": 20.4,
-            "wind_gusts_10m": 71.6
+            "wind_speed_10m": 3.4,
+            "wind_gusts_10m": 39.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -206,7 +206,7 @@
       "lifts": {
         "liftsOpen": 9,
         "liftsTotal": 10,
-        "runsOpen": 17,
+        "runsOpen": 16,
         "runsTotal": 18,
         "kmOpen": null,
         "baseDepth": 85,
@@ -237,7 +237,7 @@
           },
           {
             "name": "BETTAFORCA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "CHAMPOLUC-CREST",
@@ -249,7 +249,7 @@
           },
           {
             "name": "SANTANNA-BETTAFORCA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "STAFAL-SANTANNA",
@@ -285,7 +285,7 @@
           },
           {
             "name": "PIANALUNGA-CIMALEGNA-SALAT",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "ALAGNA-PIANALUNGA",
@@ -293,7 +293,7 @@
           },
           {
             "name": "PIANALUNGA-BOCCHETTA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "WOLD 2",
@@ -309,7 +309,7 @@
           },
           {
             "name": "CIMALEGNA-SALATI",
-            "status": "evaluating"
+            "status": "open"
           }
         ],
         "pistes": [
@@ -331,7 +331,7 @@
           },
           {
             "name": "DEL COLLE",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "DEI LARICI",
@@ -367,15 +367,15 @@
           },
           {
             "name": "COLLE BETTAFORCA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "PISTONE BETTA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "NERA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "DIRETTA STAFAL",
@@ -423,7 +423,7 @@
           },
           {
             "name": "COLLE BETTA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "PASSO DEI SALATI",
@@ -439,19 +439,19 @@
           },
           {
             "name": "MULLERO",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "OLEN",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "CIMALEGNA",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "BODWITCH",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "MULLERO COMPETITION",

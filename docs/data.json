@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-05T14:19:24.243Z",
+  "timestamp": "2026-04-05T14:59:11.591Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 1.8613338470458984,
+          "generationtime_ms": 0.3808736801147461,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-05T16:15",
+            "time": "2026-04-05T16:45",
             "interval": 900,
-            "temperature_2m": 14.2,
+            "temperature_2m": 14.3,
             "apparent_temperature": 11.2,
             "snowfall": 0,
             "snow_depth": 1.19,
             "weather_code": 0,
-            "wind_speed_10m": 8.3,
-            "wind_gusts_10m": 18
+            "wind_speed_10m": 6,
+            "wind_gusts_10m": 17.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.23090839385986328,
+          "generationtime_ms": 0.21135807037353516,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-05T16:15",
+            "time": "2026-04-05T16:45",
             "interval": 900,
-            "temperature_2m": 10.1,
-            "apparent_temperature": 6.5,
+            "temperature_2m": 9.9,
+            "apparent_temperature": 6,
             "snowfall": 0,
             "snow_depth": 1.2,
             "weather_code": 0,
-            "wind_speed_10m": 9,
-            "wind_gusts_10m": 17.6
+            "wind_speed_10m": 7.8,
+            "wind_gusts_10m": 17.3
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.7234811782836914,
+          "generationtime_ms": 0.37288665771484375,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-05T16:15",
+            "time": "2026-04-05T16:45",
             "interval": 900,
             "temperature_2m": 4.6,
-            "apparent_temperature": -0.4,
+            "apparent_temperature": -0.9,
             "snowfall": 0,
             "snow_depth": 1.96,
             "weather_code": 0,
-            "wind_speed_10m": 18.2,
-            "wind_gusts_10m": 32
+            "wind_speed_10m": 19.7,
+            "wind_gusts_10m": 34.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -339,7 +339,7 @@
           },
           {
             "name": "OSTAFA 2",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "OSTAFA 1",
@@ -403,7 +403,7 @@
           },
           {
             "name": "JOLANDA 1",
-            "status": "evaluating"
+            "status": "open"
           },
           {
             "name": "ALPE RICKA",
@@ -419,7 +419,7 @@
           },
           {
             "name": "CASTORE",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "COLLE BETTA",

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T06:08:41.976Z",
+  "timestamp": "2026-04-07T07:48:07.792Z",
   "resorts": [
     {
       "resort": {
@@ -275,11 +275,11 @@
           },
           {
             "name": "MULLERO COMPETITION",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "RACCORDO COMPETITION",
-            "status": "open"
+            "status": "evaluating"
           }
         ]
       },

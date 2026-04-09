@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T14:10:54.257Z",
+  "timestamp": "2026-04-09T15:53:06.726Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.5341768264770508,
+          "generationtime_ms": 0.35059452056884766,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-09T16:00",
+            "time": "2026-04-09T17:45",
             "interval": 900,
-            "temperature_2m": 16.6,
-            "apparent_temperature": 12.6,
+            "temperature_2m": 15.2,
+            "apparent_temperature": 10.9,
             "snowfall": 0,
-            "snow_depth": 1.01,
+            "snow_depth": 1,
             "weather_code": 0,
-            "wind_speed_10m": 10.7,
-            "wind_gusts_10m": 23.8
+            "wind_speed_10m": 9,
+            "wind_gusts_10m": 21.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.46944618225097656,
+          "generationtime_ms": 0.34487247467041016,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-09T16:00",
+            "time": "2026-04-09T17:45",
             "interval": 900,
-            "temperature_2m": 12.2,
-            "apparent_temperature": 8.1,
+            "temperature_2m": 11,
+            "apparent_temperature": 6.1,
             "snowfall": 0,
-            "snow_depth": 1.19,
+            "snow_depth": 1.18,
             "weather_code": 0,
             "wind_speed_10m": 10.5,
-            "wind_gusts_10m": 21.2
+            "wind_gusts_10m": 21.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.5518198013305664,
+          "generationtime_ms": 0.6215572357177734,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-09T16:00",
+            "time": "2026-04-09T17:45",
             "interval": 900,
-            "temperature_2m": 6.8,
-            "apparent_temperature": 1.1,
+            "temperature_2m": 5.8,
+            "apparent_temperature": -0.4,
             "snowfall": 0,
             "snow_depth": 1.58,
             "weather_code": 0,
-            "wind_speed_10m": 20.8,
-            "wind_gusts_10m": 34.6
+            "wind_speed_10m": 19.6,
+            "wind_gusts_10m": 28.4
           },
           "daily_units": {
             "time": "iso8601",
@@ -403,7 +403,7 @@
           },
           {
             "name": "JOLANDA 1",
-            "status": "open"
+            "status": "evaluating"
           },
           {
             "name": "ALPE RICKA",
@@ -468,8 +468,8 @@
         "label": "Considerable",
         "color": "#FF9800",
         "emoji": "🟠",
-        "validFrom": "2026-04-08T15:00:00Z",
-        "validTo": "2026-04-09T15:00:00Z",
+        "validFrom": "2026-04-09T15:00:00Z",
+        "validTo": "2026-04-10T15:00:00Z",
         "source": "EUREGIO (Tyrol-Trentino)",
         "url": "https://avalanche.report"
       },

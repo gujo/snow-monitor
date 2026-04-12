@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-12T13:46:11.313Z",
+  "timestamp": "2026-04-12T14:34:26.199Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.7890462875366211,
+          "generationtime_ms": 0.6924867630004883,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-12T15:45",
+            "time": "2026-04-12T16:30",
             "interval": 900,
-            "temperature_2m": 8.2,
-            "apparent_temperature": 6.1,
+            "temperature_2m": 8.4,
+            "apparent_temperature": 6.5,
             "snowfall": 0,
-            "snow_depth": 1,
+            "snow_depth": 0.99,
             "weather_code": 3,
-            "wind_speed_10m": 6.4,
-            "wind_gusts_10m": 13.3
+            "wind_speed_10m": 4.5,
+            "wind_gusts_10m": 13
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.2853870391845703,
+          "generationtime_ms": 0.21517276763916016,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-12T15:45",
+            "time": "2026-04-12T16:30",
             "interval": 900,
-            "temperature_2m": 3.9,
-            "apparent_temperature": 1.1,
+            "temperature_2m": 4.2,
+            "apparent_temperature": 1.5,
             "snowfall": 0,
             "snow_depth": 1.2,
-            "weather_code": 45,
-            "wind_speed_10m": 7.3,
-            "wind_gusts_10m": 13.7
+            "weather_code": 3,
+            "wind_speed_10m": 5.2,
+            "wind_gusts_10m": 15.1
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.3427267074584961,
+          "generationtime_ms": 0.3173351287841797,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-12T15:45",
+            "time": "2026-04-12T16:30",
             "interval": 900,
-            "temperature_2m": 0,
-            "apparent_temperature": -3.2,
+            "temperature_2m": -0.1,
+            "apparent_temperature": -3.5,
             "snowfall": 0,
-            "snow_depth": 1.34,
-            "weather_code": 45,
-            "wind_speed_10m": 5.9,
-            "wind_gusts_10m": 21.2
+            "snow_depth": 1.33,
+            "weather_code": 3,
+            "wind_speed_10m": 6.8,
+            "wind_gusts_10m": 21.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -217,15 +217,15 @@
         "lifts": [
           {
             "name": "CREST-ALPE OSTAFA III",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "ALPE OSTAFA-COLLE SAREZZA II",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "LAGO CIARCERIO-ALPE BELVEDERE",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "FRACHEY-ALPE CIARCERIO",
@@ -245,7 +245,7 @@
           },
           {
             "name": "FONTANEY 1",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "SANTANNA-BETTAFORCA",
@@ -265,11 +265,11 @@
           },
           {
             "name": "BEDEMIE-SEEHORN",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "PUNTA JOLANDA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "GABIET-PASSO DEI SALATI",
@@ -315,7 +315,7 @@
         "pistes": [
           {
             "name": "DEL BOSCO",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "DEL LAGO",
@@ -339,23 +339,23 @@
           },
           {
             "name": "OSTAFA 2",
-            "status": "evaluating"
+            "status": "closed"
           },
           {
             "name": "OSTAFA 1",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "SAREZZA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "SAREZZA-CONTENERY",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "BELVEDERE",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "CIOSAL",
@@ -363,7 +363,7 @@
           },
           {
             "name": "CONTENERY",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "COLLE BETTAFORCA",
@@ -383,31 +383,31 @@
           },
           {
             "name": "CHAMOIS",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "COLLEGAMENTO GABIET",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "COLLEGAMENTO RICKA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "SEEHORN",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "JOLANDA parte alta",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "JOLANDA 1",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "ALPE RICKA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "MOOS",
@@ -431,7 +431,7 @@
           },
           {
             "name": "JOLANDA parte bassa",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "ALAGNA",

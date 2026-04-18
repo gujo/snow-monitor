@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-18T21:55:36.803Z",
+  "timestamp": "2026-04-18T22:26:08.540Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.6103515625,
+          "generationtime_ms": 0.23031234741210938,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-18T23:45",
+            "time": "2026-04-19T00:15",
             "interval": 900,
-            "temperature_2m": 7,
-            "apparent_temperature": 4.6,
+            "temperature_2m": 6.8,
+            "apparent_temperature": 4.5,
             "snowfall": 0,
             "snow_depth": 0.86,
             "weather_code": 3,
-            "wind_speed_10m": 3.6,
-            "wind_gusts_10m": 6.8
+            "wind_speed_10m": 3.2,
+            "wind_gusts_10m": 6.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -55,7 +55,6 @@
           },
           "daily": {
             "time": [
-              "2026-04-15",
               "2026-04-16",
               "2026-04-17",
               "2026-04-18",
@@ -64,7 +63,8 @@
               "2026-04-21",
               "2026-04-22",
               "2026-04-23",
-              "2026-04-24"
+              "2026-04-24",
+              "2026-04-25"
             ],
             "snowfall_sum": [
               0,
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3190040588378906,
+          "generationtime_ms": 0.2981424331665039,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-18T23:45",
+            "time": "2026-04-19T00:15",
             "interval": 900,
-            "temperature_2m": 4.8,
-            "apparent_temperature": 1.7,
+            "temperature_2m": 4.7,
+            "apparent_temperature": 1.6,
             "snowfall": 0,
             "snow_depth": 1.19,
             "weather_code": 3,
-            "wind_speed_10m": 4.7,
-            "wind_gusts_10m": 7.6
+            "wind_speed_10m": 4.4,
+            "wind_gusts_10m": 7.9
           },
           "daily_units": {
             "time": "iso8601",
@@ -116,7 +116,6 @@
           },
           "daily": {
             "time": [
-              "2026-04-15",
               "2026-04-16",
               "2026-04-17",
               "2026-04-18",
@@ -125,7 +124,8 @@
               "2026-04-21",
               "2026-04-22",
               "2026-04-23",
-              "2026-04-24"
+              "2026-04-24",
+              "2026-04-25"
             ],
             "snowfall_sum": [
               0,
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.2498626708984375,
+          "generationtime_ms": 0.3603696823120117,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-04-18T23:45",
+            "time": "2026-04-19T00:15",
             "interval": 900,
-            "temperature_2m": 1.9,
-            "apparent_temperature": -1.5,
+            "temperature_2m": 1.7,
+            "apparent_temperature": -1.7,
             "snowfall": 0,
             "snow_depth": 1.44,
             "weather_code": 3,
             "wind_speed_10m": 5.6,
-            "wind_gusts_10m": 19.8
+            "wind_gusts_10m": 18.4
           },
           "daily_units": {
             "time": "iso8601",
@@ -177,7 +177,6 @@
           },
           "daily": {
             "time": [
-              "2026-04-15",
               "2026-04-16",
               "2026-04-17",
               "2026-04-18",
@@ -186,7 +185,8 @@
               "2026-04-21",
               "2026-04-22",
               "2026-04-23",
-              "2026-04-24"
+              "2026-04-24",
+              "2026-04-25"
             ],
             "snowfall_sum": [
               0,

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T14:56:05.666Z",
+  "timestamp": "2026-05-26T17:51:24.946Z",
   "resorts": [
     {
       "resort": {
@@ -19,9 +19,189 @@
         "liftScheduleUrl": "https://monterosaski.eu/en/schedules-monterosa-ski-area-19384"
       },
       "weather": {
-        "bottom": null,
-        "mid": null,
-        "top": null
+        "bottom": {
+          "latitude": 45.84,
+          "longitude": 7.7399993,
+          "generationtime_ms": 0.2987384796142578,
+          "utc_offset_seconds": 7200,
+          "timezone": "Europe/Rome",
+          "timezone_abbreviation": "GMT+2",
+          "elevation": 1568,
+          "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "apparent_temperature": "°C",
+            "snowfall": "cm",
+            "snow_depth": "m",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_gusts_10m": "km/h"
+          },
+          "current": {
+            "time": "2026-05-26T19:45",
+            "interval": 900,
+            "temperature_2m": 17.5,
+            "apparent_temperature": 16.4,
+            "snowfall": 0,
+            "snow_depth": 0,
+            "weather_code": 3,
+            "wind_speed_10m": 6.9,
+            "wind_gusts_10m": 9.4
+          },
+          "daily_units": {
+            "time": "iso8601",
+            "snowfall_sum": "cm"
+          },
+          "daily": {
+            "time": [
+              "2026-05-23",
+              "2026-05-24",
+              "2026-05-25",
+              "2026-05-26",
+              "2026-05-27",
+              "2026-05-28",
+              "2026-05-29",
+              "2026-05-30",
+              "2026-05-31",
+              "2026-06-01"
+            ],
+            "snowfall_sum": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "mid": {
+          "latitude": 45.86,
+          "longitude": 7.7399993,
+          "generationtime_ms": 0.7879734039306641,
+          "utc_offset_seconds": 7200,
+          "timezone": "Europe/Rome",
+          "timezone_abbreviation": "GMT+2",
+          "elevation": 2146,
+          "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "apparent_temperature": "°C",
+            "snowfall": "cm",
+            "snow_depth": "m",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_gusts_10m": "km/h"
+          },
+          "current": {
+            "time": "2026-05-26T19:45",
+            "interval": 900,
+            "temperature_2m": 13.2,
+            "apparent_temperature": 11.1,
+            "snowfall": 0,
+            "snow_depth": 0.04,
+            "weather_code": 3,
+            "wind_speed_10m": 7.9,
+            "wind_gusts_10m": 7.9
+          },
+          "daily_units": {
+            "time": "iso8601",
+            "snowfall_sum": "cm"
+          },
+          "daily": {
+            "time": [
+              "2026-05-23",
+              "2026-05-24",
+              "2026-05-25",
+              "2026-05-26",
+              "2026-05-27",
+              "2026-05-28",
+              "2026-05-29",
+              "2026-05-30",
+              "2026-05-31",
+              "2026-06-01"
+            ],
+            "snowfall_sum": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "top": {
+          "latitude": 45.82,
+          "longitude": 7.7599998,
+          "generationtime_ms": 0.35762786865234375,
+          "utc_offset_seconds": 7200,
+          "timezone": "Europe/Rome",
+          "timezone_abbreviation": "GMT+2",
+          "elevation": 2705,
+          "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C",
+            "apparent_temperature": "°C",
+            "snowfall": "cm",
+            "snow_depth": "m",
+            "weather_code": "wmo code",
+            "wind_speed_10m": "km/h",
+            "wind_gusts_10m": "km/h"
+          },
+          "current": {
+            "time": "2026-05-26T19:45",
+            "interval": 900,
+            "temperature_2m": 9.7,
+            "apparent_temperature": 8,
+            "snowfall": 0,
+            "snow_depth": 0.59,
+            "weather_code": 3,
+            "wind_speed_10m": 4.2,
+            "wind_gusts_10m": 7.9
+          },
+          "daily_units": {
+            "time": "iso8601",
+            "snowfall_sum": "cm"
+          },
+          "daily": {
+            "time": [
+              "2026-05-23",
+              "2026-05-24",
+              "2026-05-25",
+              "2026-05-26",
+              "2026-05-27",
+              "2026-05-28",
+              "2026-05-29",
+              "2026-05-30",
+              "2026-05-31",
+              "2026-06-01"
+            ],
+            "snowfall_sum": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        }
       },
       "lifts": {
         "liftsOpen": null,

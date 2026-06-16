@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T21:42:33.498Z",
+  "timestamp": "2026-06-16T23:09:18.143Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 4.965305328369141,
+          "generationtime_ms": 42.27602481842041,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-06-16T23:30",
+            "time": "2026-06-17T01:00",
             "interval": 900,
-            "temperature_2m": 11.5,
-            "apparent_temperature": 10.2,
+            "temperature_2m": 11.1,
+            "apparent_temperature": 9.2,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 5.2,
-            "wind_gusts_10m": 9.4
+            "weather_code": 1,
+            "wind_speed_10m": 5.5,
+            "wind_gusts_10m": 10.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -55,7 +55,6 @@
           },
           "daily": {
             "time": [
-              "2026-06-13",
               "2026-06-14",
               "2026-06-15",
               "2026-06-16",
@@ -64,7 +63,8 @@
               "2026-06-19",
               "2026-06-20",
               "2026-06-21",
-              "2026-06-22"
+              "2026-06-22",
+              "2026-06-23"
             ],
             "snowfall_sum": [
               0,
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.9877681732177734,
+          "generationtime_ms": 32.16195106506348,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-06-16T23:30",
+            "time": "2026-06-17T01:00",
             "interval": 900,
-            "temperature_2m": 10.6,
-            "apparent_temperature": 8.9,
+            "temperature_2m": 8.7,
+            "apparent_temperature": 6.2,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 1.3,
-            "wind_gusts_10m": 5.4
+            "weather_code": 1,
+            "wind_speed_10m": 5.2,
+            "wind_gusts_10m": 8.3
           },
           "daily_units": {
             "time": "iso8601",
@@ -116,7 +116,6 @@
           },
           "daily": {
             "time": [
-              "2026-06-13",
               "2026-06-14",
               "2026-06-15",
               "2026-06-16",
@@ -125,7 +124,8 @@
               "2026-06-19",
               "2026-06-20",
               "2026-06-21",
-              "2026-06-22"
+              "2026-06-22",
+              "2026-06-23"
             ],
             "snowfall_sum": [
               0,
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 3.412961959838867,
+          "generationtime_ms": 0.6748437881469727,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-06-16T23:30",
+            "time": "2026-06-17T01:00",
             "interval": 900,
-            "temperature_2m": 6.7,
+            "temperature_2m": 6.6,
             "apparent_temperature": 3.3,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 10.9,
-            "wind_gusts_10m": 41.8
+            "weather_code": 1,
+            "wind_speed_10m": 8.1,
+            "wind_gusts_10m": 35.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -177,7 +177,6 @@
           },
           "daily": {
             "time": [
-              "2026-06-13",
               "2026-06-14",
               "2026-06-15",
               "2026-06-16",
@@ -186,7 +185,8 @@
               "2026-06-19",
               "2026-06-20",
               "2026-06-21",
-              "2026-06-22"
+              "2026-06-22",
+              "2026-06-23"
             ],
             "snowfall_sum": [
               0,

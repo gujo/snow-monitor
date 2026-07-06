@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-06T05:35:28.698Z",
+  "timestamp": "2026-07-06T09:40:41.687Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 1.6492605209350586,
+          "generationtime_ms": 0.9747743606567383,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-07-06T07:30",
+            "time": "2026-07-06T11:30",
             "interval": 900,
-            "temperature_2m": 12.3,
-            "apparent_temperature": 11,
+            "temperature_2m": 20,
+            "apparent_temperature": 20.1,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 2,
-            "wind_speed_10m": 5.2,
-            "wind_gusts_10m": 14.4
+            "wind_speed_10m": 8,
+            "wind_gusts_10m": 19.1
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 2.2829771041870117,
+          "generationtime_ms": 0.39327144622802734,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-07-06T07:30",
+            "time": "2026-07-06T11:30",
             "interval": 900,
-            "temperature_2m": 10.3,
-            "apparent_temperature": 7.4,
+            "temperature_2m": 16.5,
+            "apparent_temperature": 15.5,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 2,
-            "wind_speed_10m": 8.4,
-            "wind_gusts_10m": 16.2
+            "wind_speed_10m": 10.2,
+            "wind_gusts_10m": 20.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 0.9495019912719727,
+          "generationtime_ms": 0.3788471221923828,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-07-06T07:30",
+            "time": "2026-07-06T11:30",
             "interval": 900,
-            "temperature_2m": 7.9,
-            "apparent_temperature": 4.4,
+            "temperature_2m": 13,
+            "apparent_temperature": 11.7,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 3,
-            "wind_speed_10m": 8,
-            "wind_gusts_10m": 33.1
+            "wind_speed_10m": 9.6,
+            "wind_gusts_10m": 23
           },
           "daily_units": {
             "time": "iso8601",
@@ -217,7 +217,7 @@
         "lifts": [
           {
             "name": "CREST-ALPE OSTAFA III",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "ALPE OSTAFA-COLLE SAREZZA II",
@@ -233,11 +233,11 @@
           },
           {
             "name": "ALPE MANDRIA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "BETTAFORCA",
-            "status": "open"
+            "status": "closed"
           },
           {
             "name": "CHAMPOLUC-CREST",

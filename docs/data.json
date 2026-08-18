@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T23:57:53.677Z",
+  "timestamp": "2026-08-18T01:04:48.648Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 8.665919303894043,
+          "generationtime_ms": 1.7031431198120117,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-08-18T01:45",
+            "time": "2026-08-18T03:00",
             "interval": 900,
-            "temperature_2m": 10.6,
-            "apparent_temperature": 8.9,
+            "temperature_2m": 10.5,
+            "apparent_temperature": 8.8,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 6.5,
-            "wind_gusts_10m": 13.3
+            "weather_code": 1,
+            "wind_speed_10m": 6.6,
+            "wind_gusts_10m": 12.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.6607770919799805,
+          "generationtime_ms": 3.080606460571289,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-08-18T01:45",
+            "time": "2026-08-18T03:00",
             "interval": 900,
-            "temperature_2m": 9.6,
-            "apparent_temperature": 7.4,
+            "temperature_2m": 8.6,
+            "apparent_temperature": 6.1,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 5.4,
-            "wind_gusts_10m": 6.1
+            "weather_code": 1,
+            "wind_speed_10m": 7.9,
+            "wind_gusts_10m": 11.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 1.3343095779418945,
+          "generationtime_ms": 1.0361671447753906,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-08-18T01:45",
+            "time": "2026-08-18T03:00",
             "interval": 900,
-            "temperature_2m": 6.8,
-            "apparent_temperature": 2.3,
+            "temperature_2m": 6.4,
+            "apparent_temperature": 2.5,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 18.3,
-            "wind_gusts_10m": 64.4
+            "weather_code": 0,
+            "wind_speed_10m": 14.7,
+            "wind_gusts_10m": 56.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -474,98 +474,9 @@
         "url": "https://avalanche.report"
       },
       "schedule": {
-        "hours": {
-          "CHAMPOLUC-CREST": {
-            "open": "8:45",
-            "close": "17:00"
-          },
-          "FONTANEY 1 AND 2": {
-            "open": "9:00",
-            "close": "16:50"
-          },
-          "CREST-ALPE OSTAFA III": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "ALPE OSTAFA-SAREZZA II": {
-            "open": "9:15",
-            "close": "16:30"
-          },
-          "FRACHEY-ALPE CIARCERIO": {
-            "open": "8:45",
-            "close": "17:00"
-          },
-          "ALPE MANDRIA": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "ALPE CIARCERIO": {
-            "open": "9:00",
-            "close": "17:00"
-          },
-          "LAGO CIARCERIO-BELVEDERE": {
-            "open": "9:15",
-            "close": "16:30"
-          },
-          "BETTAFORCA": {
-            "open": "9:15",
-            "close": "16:30"
-          },
-          "STAFFAL-SANT’ANNA": {
-            "open": "8:45",
-            "close": "16:45"
-          },
-          "SANT’ANNA-COLLE BETTA": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "SANT’ANNA": {
-            "open": "8:45",
-            "close": "16:45"
-          },
-          "MOOS": {
-            "open": "8:45",
-            "close": "16:45"
-          },
-          "STAFFAL-GABIET": {
-            "open": "8:45",
-            "close": "16:45"
-          },
-          "GABIET-LAGO": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "GABIET-PASSO DEI SALATI": {
-            "open": "9:00",
-            "close": "16:15"
-          },
-          "PASSO DEI SALATI-PUNTA INDREN": {
-            "open": "9:15",
-            "close": "15:45"
-          },
-          "PUNTA JOLANDA": {
-            "open": "8:45",
-            "close": "16:30"
-          },
-          "BEDEMIE-SEEHORN": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "ALAGNA-PIANALUNGA": {
-            "open": "8:45",
-            "close": "16:45"
-          },
-          "PIANALUNGA-CIMALEGNA-PASSO DEI SALATI": {
-            "open": "9:00",
-            "close": "16:30"
-          },
-          "CIMALEGNA-PASSO DEI SALATI": {
-            "open": "9:15",
-            "close": "16:00"
-          }
-        },
-        "generalOpen": "8:45",
-        "generalClose": "17:00"
+        "hours": {},
+        "generalOpen": null,
+        "generalClose": null
       }
     }
   ]

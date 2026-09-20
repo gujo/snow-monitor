@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T21:43:00.395Z",
+  "timestamp": "2026-09-20T23:32:17.734Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.84,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.3826618194580078,
+          "generationtime_ms": 4.293680191040039,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-09-20T23:30",
+            "time": "2026-09-21T01:30",
             "interval": 900,
-            "temperature_2m": 13.2,
-            "apparent_temperature": 10.9,
+            "temperature_2m": 12.5,
+            "apparent_temperature": 10,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 3,
-            "wind_speed_10m": 7.9,
-            "wind_gusts_10m": 16.2
+            "wind_speed_10m": 6.1,
+            "wind_gusts_10m": 11.9
           },
           "daily_units": {
             "time": "iso8601",
@@ -55,7 +55,6 @@
           },
           "daily": {
             "time": [
-              "2026-09-17",
               "2026-09-18",
               "2026-09-19",
               "2026-09-20",
@@ -64,7 +63,8 @@
               "2026-09-23",
               "2026-09-24",
               "2026-09-25",
-              "2026-09-26"
+              "2026-09-26",
+              "2026-09-27"
             ],
             "snowfall_sum": [
               0,
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.86,
           "longitude": 7.7399993,
-          "generationtime_ms": 0.30863285064697266,
+          "generationtime_ms": 0.83160400390625,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-09-20T23:30",
+            "time": "2026-09-21T01:30",
             "interval": 900,
-            "temperature_2m": 9.9,
-            "apparent_temperature": 6.8,
+            "temperature_2m": 9.4,
+            "apparent_temperature": 6.6,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 3,
-            "wind_speed_10m": 9.9,
-            "wind_gusts_10m": 19.8
+            "wind_speed_10m": 6.1,
+            "wind_gusts_10m": 15.1
           },
           "daily_units": {
             "time": "iso8601",
@@ -116,7 +116,6 @@
           },
           "daily": {
             "time": [
-              "2026-09-17",
               "2026-09-18",
               "2026-09-19",
               "2026-09-20",
@@ -125,7 +124,8 @@
               "2026-09-23",
               "2026-09-24",
               "2026-09-25",
-              "2026-09-26"
+              "2026-09-26",
+              "2026-09-27"
             ],
             "snowfall_sum": [
               0,
@@ -144,7 +144,7 @@
         "top": {
           "latitude": 45.82,
           "longitude": 7.7599998,
-          "generationtime_ms": 1.3124942779541016,
+          "generationtime_ms": 1.6325712203979492,
           "utc_offset_seconds": 7200,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+2",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-09-20T23:30",
+            "time": "2026-09-21T01:30",
             "interval": 900,
-            "temperature_2m": 7.4,
-            "apparent_temperature": 3.7,
+            "temperature_2m": 7,
+            "apparent_temperature": 2.8,
             "snowfall": 0,
             "snow_depth": 0,
             "weather_code": 3,
-            "wind_speed_10m": 9.7,
-            "wind_gusts_10m": 31.7
+            "wind_speed_10m": 10.5,
+            "wind_gusts_10m": 39.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -177,7 +177,6 @@
           },
           "daily": {
             "time": [
-              "2026-09-17",
               "2026-09-18",
               "2026-09-19",
               "2026-09-20",
@@ -186,7 +185,8 @@
               "2026-09-23",
               "2026-09-24",
               "2026-09-25",
-              "2026-09-26"
+              "2026-09-26",
+              "2026-09-27"
             ],
             "snowfall_sum": [
               0,

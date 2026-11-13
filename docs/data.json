@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T02:53:33.837Z",
+  "timestamp": "2026-11-13T10:20:29.975Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.837395,
           "longitude": 7.734346,
-          "generationtime_ms": 0.8124113082885742,
+          "generationtime_ms": 0.7929801940917969,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-13T03:45",
+            "time": "2026-11-13T11:15",
             "interval": 900,
-            "temperature_2m": 4.7,
-            "apparent_temperature": 2.1,
+            "temperature_2m": 7.1,
+            "apparent_temperature": 4.3,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 6.6,
-            "wind_gusts_10m": 13.3
+            "weather_code": 1,
+            "wind_speed_10m": 7.9,
+            "wind_gusts_10m": 16.9
           },
           "daily_units": {
             "time": "iso8601",
@@ -72,10 +72,10 @@
               0,
               0,
               0,
-              0.14,
-              1.82,
-              3.78,
-              0,
+              0.09,
+              2.59,
+              3.99,
+              1.47,
               0
             ]
           }
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.819668,
           "longitude": 7.732164,
-          "generationtime_ms": 0.5112886428833008,
+          "generationtime_ms": 0.5260705947875977,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-13T03:45",
+            "time": "2026-11-13T11:15",
             "interval": 900,
-            "temperature_2m": 1.9,
-            "apparent_temperature": -1.2,
+            "temperature_2m": 3.5,
+            "apparent_temperature": 0.4,
             "snowfall": 0,
             "snow_depth": 0,
-            "weather_code": 3,
-            "wind_speed_10m": 6.3,
-            "wind_gusts_10m": 13
+            "weather_code": 1,
+            "wind_speed_10m": 6.7,
+            "wind_gusts_10m": 15.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -133,18 +133,18 @@
               0,
               0,
               0,
-              0.28,
-              2.31,
-              4.3,
-              0.84,
-              0
+              0.07,
+              3.64,
+              9.45,
+              3.19,
+              1.54
             ]
           }
         },
         "top": {
           "latitude": 45.83499,
           "longitude": 7.7744794,
-          "generationtime_ms": 0.4729032516479492,
+          "generationtime_ms": 0.638127326965332,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-13T03:45",
+            "time": "2026-11-13T11:15",
             "interval": 900,
-            "temperature_2m": -1.1,
+            "temperature_2m": -0.9,
             "apparent_temperature": -4.5,
             "snowfall": 0,
-            "snow_depth": 0.18,
-            "weather_code": 71,
-            "wind_speed_10m": 6.8,
-            "wind_gusts_10m": 20.5
+            "snow_depth": 0.19,
+            "weather_code": 1,
+            "wind_speed_10m": 5.6,
+            "wind_gusts_10m": 14.8
           },
           "daily_units": {
             "time": "iso8601",
@@ -194,11 +194,11 @@
               1.12,
               0,
               0,
-              0.14,
-              3.08,
-              6.61,
-              5.32,
-              0.77
+              0.42,
+              3.78,
+              14.07,
+              9.13,
+              7
             ]
           }
         }

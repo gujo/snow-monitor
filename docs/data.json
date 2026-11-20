@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T13:43:49.292Z",
+  "timestamp": "2026-11-20T21:32:29.581Z",
   "resorts": [
     {
       "resort": {
@@ -22,7 +22,7 @@
         "bottom": {
           "latitude": 45.837395,
           "longitude": 7.734346,
-          "generationtime_ms": 1.6094446182250977,
+          "generationtime_ms": 0.6517171859741211,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -39,15 +39,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-20T14:30",
+            "time": "2026-11-20T22:30",
             "interval": 900,
-            "temperature_2m": 2.9,
-            "apparent_temperature": -1.3,
+            "temperature_2m": -0.9,
+            "apparent_temperature": -5,
             "snowfall": 0,
-            "snow_depth": 0.21,
-            "weather_code": 1,
-            "wind_speed_10m": 12,
-            "wind_gusts_10m": 22
+            "snow_depth": 0.24,
+            "weather_code": 85,
+            "wind_speed_10m": 8.6,
+            "wind_gusts_10m": 17.6
           },
           "daily_units": {
             "time": "iso8601",
@@ -70,12 +70,12 @@
               0,
               0,
               0,
-              0.49,
-              1.12,
-              3.33,
               0,
-              0.98,
-              6.3,
+              1.82,
+              3.5,
+              0,
+              0.77,
+              5.11,
               0
             ]
           }
@@ -83,7 +83,7 @@
         "mid": {
           "latitude": 45.819668,
           "longitude": 7.732164,
-          "generationtime_ms": 0.7493495941162109,
+          "generationtime_ms": 0.7170438766479492,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -100,15 +100,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-20T14:30",
+            "time": "2026-11-20T22:30",
             "interval": 900,
-            "temperature_2m": -0.4,
-            "apparent_temperature": -5,
+            "temperature_2m": -4.1,
+            "apparent_temperature": -8.1,
             "snowfall": 0,
-            "snow_depth": 0.31,
-            "weather_code": 1,
-            "wind_speed_10m": 12.3,
-            "wind_gusts_10m": 28.1
+            "snow_depth": 0.33,
+            "weather_code": 85,
+            "wind_speed_10m": 5.3,
+            "wind_gusts_10m": 15.5
           },
           "daily_units": {
             "time": "iso8601",
@@ -131,20 +131,20 @@
               0.42,
               4.97,
               8.75,
-              0.42,
-              0.77,
-              4.84,
-              0,
-              0.98,
-              17.36,
-              0.35
+              0.07,
+              2.45,
+              3.78,
+              0.07,
+              0.84,
+              6.3,
+              0
             ]
           }
         },
         "top": {
           "latitude": 45.83499,
           "longitude": 7.7744794,
-          "generationtime_ms": 0.6082057952880859,
+          "generationtime_ms": 0.40280818939208984,
           "utc_offset_seconds": 3600,
           "timezone": "Europe/Rome",
           "timezone_abbreviation": "GMT+1",
@@ -161,15 +161,15 @@
             "wind_gusts_10m": "km/h"
           },
           "current": {
-            "time": "2026-11-20T14:30",
+            "time": "2026-11-20T22:30",
             "interval": 900,
-            "temperature_2m": -5.7,
-            "apparent_temperature": -13.3,
+            "temperature_2m": -7.1,
+            "apparent_temperature": -14,
             "snowfall": 0,
-            "snow_depth": 0.63,
-            "weather_code": 1,
-            "wind_speed_10m": 30.4,
-            "wind_gusts_10m": 68.4
+            "snow_depth": 0.64,
+            "weather_code": 85,
+            "wind_speed_10m": 25.6,
+            "wind_gusts_10m": 75.2
           },
           "daily_units": {
             "time": "iso8601",
@@ -192,13 +192,13 @@
               11.9,
               5.95,
               9.52,
-              0.7,
-              1.47,
-              6.01,
-              1.33,
-              0.7,
-              10.33,
-              0.21
+              0.28,
+              1.75,
+              5.09,
+              0.35,
+              0.63,
+              4.94,
+              0
             ]
           }
         }
